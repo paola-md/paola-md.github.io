@@ -310,3 +310,6 @@ figure.paperfig figcaption{font-size:13px;line-height:1.5;color:var(--ink-faint)
 
 .students .nm{display:flex;flex-direction:column;gap:3px}
 .students .now{font-weight:400;font-size:12.8px;line-height:1.42;color:var(--ink-faint)}
+
+.eqnote{font-size:12.6px;color:var(--ink-faint);font-style:normal}
+.pub-meta sup, .authors sup{color:var(--solid);font-weight:700}
