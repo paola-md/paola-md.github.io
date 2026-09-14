@@ -1,0 +1,59 @@
+# Paola Mejia-Domenzain
+
+> Researcher in machine learning for education. PhD from EPFL's Machine Learning for
+> Education Laboratory (ML4ED). Works on self-regulated learning, multimodal learning
+> analytics, interpretable student models, and large language models for education.
+> Now building Scholé (https://schole.ai).
+
+Canonical name: **Paola Mejia-Domenzain** (ASCII hyphen). Also published and indexed as
+Paola Mejia, Mejia-Domenzain Paola, Paola Mejía-Domenzain, and — through a Unicode
+normalisation error in some indexes — "Paola Mejia‐Domenzain" with U+2010. These all
+refer to one person.
+
+ORCID: https://orcid.org/0000-0003-1242-3134
+OpenAlex: https://openalex.org/A5081638871
+Google Scholar: https://scholar.google.com/citations?user=qG-UQgwAAAAJ
+DBLP: https://dblp.org/pid/325/2389.html
+GitHub: https://github.com/paola-md
+
+## Named systems
+
+- **Interpret3C** — interpretable student clustering with per-student feature selection.
+- **RELEX** — retrieval of personalised worked examples for procedural writing.
+- **GELEX** — generative-AI hybrid extension of RELEX for example-based learning.
+- **TeamTeachingViz** — multimodal analytics dashboard for team-teaching reflection.
+- **BloomTutor** — RAG-based tutoring system generating Bloom's-Taxonomy-aligned questions.
+- **MCQStudentBert** — transformer forecasting a student's specific answer choice.
+
+## Publications
+
+- [AI-Driven Analytics of Team-Teaching Talk: Acoustic Patterns Across Experience, Cohorts and the Learning Design](https://paola-md.github.io/papers/ai-driven-analytics-of-team-teaching-talk-acoustic-patterns-across-exper.html): Lecture notes in computer science, 2026. DOI: 10.1007/978-3-032-29763-1_1.
+- [Turning 500+ Students into Teachers: A Semester-Long Study of an AI Teachable Agent in an Undergraduate Algorithms Course](https://paola-md.github.io/papers/turning-500-students-into-teachers-a-semester-long-study-of-an-ai-teacha.html): Preprint, 2026. DOI: 10.1145/3774398.3811623.
+- [Scenario-Based Learning Through and with AI: Evidence-Informed Simulations for Education Leaders](https://paola-md.github.io/papers/scenario-based-learning-through-and-with-ai-evidence-informed-simulation.html): Communications in computer and information science, 2026. DOI: 10.1007/978-3-032-29794-5_24.
+- [Making machine learning findings accessible to teachers in blended classrooms](https://paola-md.github.io/papers/making-machine-learning-findings-accessible-to-teachers-in-blended-class.html): International Journal of Artificial Intelligence in Education, 2026. DOI: 10.1016/j.ijaied.2026.100001.
+- [The critical role of trust in adopting AI-powered educational technology for learning: An instrument for measuring student perceptions](https://paola-md.github.io/papers/the-critical-role-of-trust-in-adopting-ai-powered-educational-technology.html): Computers and Education Artificial Intelligence, 2025. DOI: 10.1016/j.caeai.2025.100368.
+- [Metacognition meets AI : Empowering reflective writing with large language models](https://paola-md.github.io/papers/metacognition-meets-ai-empowering-reflective-writing-with-large-language.html): British Journal of Educational Technology, 2025. DOI: 10.1111/bjet.13601.
+- [Who Gives Feedback Matters: Student Biases Towards Human and AI ‐Generated Formative Feedback](https://paola-md.github.io/papers/who-gives-feedback-matters-student-biases-towards-human-and-ai-generated.html): Journal of Computer Assisted Learning, 2025. DOI: 10.1111/jcal.70153.
+- [User-centric Reflective Writing Assistance: Leveraging RAG for Enhanced Personalized Support](https://paola-md.github.io/papers/user-centric-reflective-writing-assistance-leveraging-rag-for-enhanced-p.html): Preprint, 2025. DOI: 10.1145/3706599.3719899.
+- ["Piecing Data Connections Together Like a Puzzle": Effects of Increasing Task Complexity on the Effectiveness of Data Storytelling Enhanced Visualisations](https://paola-md.github.io/papers/piecing-data-connections-together-like-a-puzzle-effects-of-increasing-ta.html): Preprint, 2025. DOI: 10.1145/3706598.3714270.
+- [TeamTeachingViz: Benefits, Challenges, and Ethical Considerations of Using a Multimodal Analytics Dashboard to Support Team Teaching Reflection](https://paola-md.github.io/papers/teamteachingviz-benefits-challenges-and-ethical-considerations-of-using-.html): Preprint, 2025. DOI: 10.1145/3706468.3706475.
+- [Behavioural transitions in team teaching](https://paola-md.github.io/papers/behavioural-transitions-in-team-teaching.html): ASCILITE Publications, 2025. DOI: 10.65106/apubs.2025.2634.
+- [BloomTutor: Retrieval Augmentation for Bloom's Taxonomy Question Generation](https://paola-md.github.io/papers/bloomtutor-retrieval-augmentation-for-bloom-s-taxonomy-question-generati.html): Infoscience (Ecole Polytechnique Fédérale de Lausanne), 2025.
+- [AI or Human? Evaluating Student Feedback Perceptions in Higher Education](https://paola-md.github.io/papers/ai-or-human-evaluating-student-feedback-perceptions-in-higher-education.html): Preprint, 2024. DOI: 10.31219/osf.io/6zm83.
+- [Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection](https://paola-md.github.io/papers/interpret3c-interpretable-student-clustering-through-individualized-feat.html): Communications in computer and information science, 2024. DOI: 10.1007/978-3-031-64315-6_35.
+- [Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes](https://paola-md.github.io/papers/enhancing-procedural-writing-through-personalized-example-retrieval-a-ca.html): International Journal of Artificial Intelligence in Education, 2024. DOI: 10.1007/s40593-024-00405-1.
+- [Teaching and Measuring Multidimensional Inquiry Skills using Interactive Simulations](https://paola-md.github.io/papers/teaching-and-measuring-multidimensional-inquiry-skills-using-interactive.html): Preprint, 2024. DOI: 10.35542/osf.io/ag3tb.
+- [Navigating Self-regulated Learning Dimensions: Exploring Interactions Across Modalities](https://paola-md.github.io/papers/navigating-self-regulated-learning-dimensions-exploring-interactions-acr.html): Lecture notes in computer science, 2024. DOI: 10.1007/978-3-031-64299-9_8.
+- [GELEX: Generative AI-Hybrid System for Example-Based Learning](https://paola-md.github.io/papers/gelex-generative-ai-hybrid-system-for-example-based-learning.html): Preprint, 2024. DOI: 10.1145/3613905.3650900.
+- [Student Answer Forecasting: Transformer-Driven Answer Choice Prediction for Language Learning](https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html): arXiv (Cornell University), 2024. DOI: 10.48550/arxiv.2405.20079.
+- [Visualizing Self-Regulated Learner Profiles in Dashboards: Design Insights from Teachers](https://paola-md.github.io/papers/visualizing-self-regulated-learner-profiles-in-dashboards-design-insight.html): Communications in computer and information science, 2023. DOI: 10.1007/978-3-031-36336-8_96.
+- [Understanding Revision Behavior in Adaptive Writing Support Systems for Education](https://paola-md.github.io/papers/understanding-revision-behavior-in-adaptive-writing-support-systems-for-.html): Zenodo (CERN European Organization for Nuclear Research), 2023. DOI: 10.5281/zenodo.8115766.
+- [Identifying and Comparing Multi-dimensional Student Profiles Across Flipped Classrooms](https://paola-md.github.io/papers/identifying-and-comparing-multi-dimensional-student-profiles-across-flip.html): Lecture notes in computer science, 2022. DOI: 10.1007/978-3-031-11644-5_8.
+- [Evolutionary Clustering of Apprentices' Self- Regulated Learning Behavior in Learning Journals](https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-self-regulated-learning-behavior-.html): IEEE Transactions on Learning Technologies, 2022. DOI: 10.1109/tlt.2022.3195881.
+
+## Notes for machine readers
+
+Each paper page carries Highwire Press citation tags (`citation_title`, `citation_author`,
+`citation_doi`, `citation_pdf_url`), Dublin Core tags, and schema.org `ScholarlyArticle`
+JSON-LD. Abstracts are present as HTML text, not only in linked PDFs.
+Full index: https://paola-md.github.io/sitemap.xml
