@@ -7,6 +7,10 @@
 <meta name="description" content="Intelligent Tutoring Systems (ITS) enhance personalized learning by predicting student answers to provide immediate and customized instruction. However, recent research has primarily focused on the correctness of the answer rather than the student&#x27;s performance on specific answer choices, limiting i">
 <link rel="canonical" href="https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="describedby" href="/llms.txt" type="text/plain">
+<link rel="alternate" href="/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.md" type="text/markdown" title="This page as Markdown">
+<link rel="alternate" href="/publications.json" type="application/json" title="Publications as JSON">
+<link rel="alternate" href="/publications.bib" type="application/x-bibtex" title="Publications as BibTeX">
 <link rel="preload" href="/assets/fonts/NewSpirit-Medium.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
@@ -63,6 +67,7 @@
   {
    "@type": "Person",
    "name": "Paola Mejia-Domenzain",
+   "@id": "https://paola-md.github.io/#person",
    "identifier": "https://orcid.org/0000-0003-1242-3134",
    "sameAs": [
     "https://orcid.org/0000-0003-1242-3134"
@@ -86,27 +91,50 @@
  "isAccessibleForFree": true,
  "mainEntityOfPage": "https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html",
  "url": "https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html",
+ "@id": "https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html#article",
  "abstract": "Intelligent Tutoring Systems (ITS) enhance personalized learning by predicting student answers to provide immediate and customized instruction. However, recent research has primarily focused on the correctness of the answer rather than the student's performance on specific answer choices, limiting insights into students' thought processes and potential misconceptions. To address this gap, we present MCQStudentBert, an answer forecasting model that leverages the capabilities of Large Language Models (LLMs) to integrate contextual understanding of students' answering history along with the text of the questions and answers. By predicting the specific answer choices students are likely to make, practitioners can easily extend the model to new answer choices or remove answer choices for the same multiple-choice question (MCQ) without retraining the model. In particular, we compare MLP, LSTM, BERT, and Mistral 7B architectures to generate embeddings from students' past interactions, which are then incorporated into a finetuned BERT's answer-forecasting mechanism. We apply our pipeline to a dataset of language learning MCQ, gathered from an ITS with over 10,000 students to explore the predictive accuracy of MCQStudentBert, which incorporates student interaction patterns, in comparison to correct answer prediction and traditional mastery-learning feature-based approaches. This work opens the door to more personalized content, modularization, and granular support.",
  "identifier": "https://doi.org/10.48550/arxiv.2405.20079",
  "sameAs": [
   "https://doi.org/10.48550/arxiv.2405.20079",
   "https://doi.org/10.48550/arxiv.2405.20079"
  ],
- "publication": {
-  "@type": "Periodical",
-  "name": "arXiv preprint"
- },
  "isPartOf": {
-  "@type": "Periodical",
+  "@type": "Book",
   "name": "arXiv preprint"
  },
  "publisher": {
   "@type": "Organization",
   "name": "Cornell University"
  },
- "license": "cc-by",
+ "license": "https://creativecommons.org/licenses/by/4.0/",
  "image": "https://paola-md.github.io/assets/figures/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.jpg",
  "keywords": "Topic Modeling, Intelligent Tutoring Systems and Adaptive Learning, Natural Language Processing Techniques"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Paola Mejia-Domenzain",
+   "item": "https://paola-md.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Publications",
+   "item": "https://paola-md.github.io/#publications"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "Student Answer Forecasting: Transformer-Driven Answer Choice Prediction for Language Learning",
+   "item": "https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html"
+  }
+ ]
 }
 </script>
 </head>
@@ -119,6 +147,7 @@
 <p class="authors">Elena Grazia Gado, Tommaso Martorella, Luca Zunino, <span class="me">Paola Mejia-Domenzain</span>, Vinitra Swamy, Jibril Frej, Tanja Käser</p>
 <p class="paper-venue">arXiv preprint &middot; 2024</p>
 <figure class="paperfig"><img src="/assets/figures/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.jpg" alt="MCQStudentBert pipeline: question-answer data passes through domain adaptation, correct-answer prediction and student-answer forecasting, with embedding generation feeding back into training." loading="lazy"><figcaption>MCQStudentBert pipeline: question-answer data passes through domain adaptation, correct-answer prediction and student-answer forecasting, with embedding generation feeding back into training. &middot; Figure from the paper.</figcaption></figure>
+
 <div class="abstract-block"><h2>Abstract</h2><p>Intelligent Tutoring Systems (ITS) enhance personalized learning by predicting student answers to provide immediate and customized instruction. However, recent research has primarily focused on the correctness of the answer rather than the student&#x27;s performance on specific answer choices, limiting insights into students&#x27; thought processes and potential misconceptions. To address this gap, we present MCQStudentBert, an answer forecasting model that leverages the capabilities of Large Language Models (LLMs) to integrate contextual understanding of students&#x27; answering history along with the text of the questions and answers. By predicting the specific answer choices students are likely to make, practitioners can easily extend the model to new answer choices or remove answer choices for the same multiple-choice question (MCQ) without retraining the model. In particular, we compare MLP, LSTM, BERT, and Mistral 7B architectures to generate embeddings from students&#x27; past interactions, which are then incorporated into a finetuned BERT&#x27;s answer-forecasting mechanism. We apply our pipeline to a dataset of language learning MCQ, gathered from an ITS with over 10,000 students to explore the predictive accuracy of MCQStudentBert, which incorporates student interaction patterns, in comparison to correct answer prediction and traditional mastery-learning feature-based approaches. This work opens the door to more personalized content, modularization, and granular support.</p></div>
 <dl class="facts">
 <dt>Venue</dt><dd>arXiv preprint</dd><dt>Year</dt><dd>2024</dd><dt>DOI</dt><dd><a href="https://doi.org/10.48550/arxiv.2405.20079">10.48550/arxiv.2405.20079</a></dd><dt>Licence</dt><dd>CC-BY</dd><dt>Topics</dt><dd>Topic Modeling, Intelligent Tutoring Systems and Adaptive Learning, Natural Language Processing Techniques</dd>
@@ -126,6 +155,16 @@
 <ul class="pub-links" role="list"><li><a href="https://doi.org/10.48550/arxiv.2405.20079" aria-label="DOI for this paper">DOI</a></li><li><a href="https://doi.org/10.48550/arxiv.2405.20079" aria-label="arXiv for this paper">arXiv</a></li><li><a href="https://arxiv.org/pdf/2405.20079" aria-label="PDF for this paper">PDF</a></li><li><a href="http://arxiv.org/abs/2405.20079" aria-label="Open access for this paper">Open access</a></li></ul>
 </article>
 </div></main>
-
+<footer><div class="wrap-wide">
+<img class="mark" src="/assets/logo-mark.svg" alt="" width="26" height="26">
+<p><strong>Paola Mejia-Domenzain</strong> &middot; <a href="https://orcid.org/0000-0003-1242-3134">ORCID 0000-0003-1242-3134</a>
+&middot; <a href="https://schole.ai">Schol&eacute; AI</a></p>
+<p class="foot-machine">Machine-readable: <a href="/publications.bib">BibTeX</a> &middot;
+<a href="/publications.json">JSON</a> &middot; <a href="/llms.txt">llms.txt</a> &middot;
+<a href="/llms-full.txt">llms-full.txt</a> &middot; <a href="/sitemap.xml">sitemap</a></p>
+<p>Abstracts are reproduced under each paper&rsquo;s own licence; follow the DOI for the version of record.
+Site metadata may be reused freely.</p>
+<p>Last updated 2026-09-14. Plain static HTML, open to crawlers.</p>
+</div></footer>
 </body>
 </html>

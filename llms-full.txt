@@ -1,0 +1,268 @@
+# Paola Mejia-Domenzain
+
+Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-09-14
+
+Co-Founder and CTO of Scholé AI, Lausanne. PhD in Computer Science from EPFL's
+Machine Learning for Education Laboratory (ML4ED), advised by Tanja Käser.
+Research: self-regulated learning, multimodal learning analytics, interpretable
+student models, and large language models as tutors, feedback-givers and example
+generators.
+
+Name variants that all refer to this person: Paola Mejia-Domenzain (canonical),
+Paola Mejia, Paola Mejía-Domenzain, Paola Mejia Domenzain, P. Mejia-Domenzain.
+Some indexes store the surname with a U+2010 hyphen; that is the same person.
+
+## Identifiers
+- ORCID: https://orcid.org/0000-0003-1242-3134
+- Google Scholar: https://scholar.google.com/citations?user=qG-UQgwAAAAJ
+- DBLP: https://dblp.org/pid/325/2389.html
+- OpenAlex: https://openalex.org/A5081638871
+- GitHub: https://github.com/paola-md
+- Scholé AI: https://schole.ai
+
+## Machine-readable exports
+- BibTeX, all 23 publications: https://paola-md.github.io/publications.bib
+- JSON index with abstracts: https://paola-md.github.io/publications.json
+- Sitemap: https://paola-md.github.io/sitemap.xml
+
+## Publications (23)
+
+### AI-Driven Analytics of Team-Teaching Talk: Acoustic Patterns Across Experience, Cohorts and the Learning Design
+Yuchen Liu, Roberto Martínez-Maldonado, Riordan Alfredo, Paola Mejia-Domenzain, Dwi Rahayu, Sadia Nawaz
+2026 · Lecture Notes in Computer Science · DOI: 10.1007/978-3-032-29763-1_1
+Page: https://paola-md.github.io/papers/ai-driven-analytics-of-team-teaching-talk-acoustic-patterns-across-exper.html
+
+As classroom cohorts expand, team teaching is increasingly used to integrate the expertise and pedagogical perspectives of multiple teachers. Yet, there is limited empirical understanding of how team teaching unfolds in practice, particularly regarding differences in teachers' contributions across experience levels, student cohorts, and learning task design. Prior research on team teaching has largely relied on retrospective self-reports or small-scale observations, offering limited insight into the micro-level processes through which team teaching is enacted. Teacher talk offers a scalable lens on these processes. While research in individual teaching contexts shows that acoustic features of speech (e.g., voice quality, intonation, and loudness) can shape student learning, evidence from team-teaching settings remains scarce. Moreover, capturing such features through manual observation or transcription is especially challenging in team-teaching classrooms, where multiple teachers speak across extended sessions and spatial locations, limiting scalability without automation. Grounded in spatial pedagogy theory and team-teaching research, this paper presents an AI-based speech processing approach to analyse classroom talk in team-teaching settings. We analysed 36 recorded undergraduate and postgraduate sessions involving 12 teachers. Spatial pedagogy behaviours were coded and acoustic features extracted to examine variation across teachers' experience, student cohorts, and the learning task design. The results reveal systematic differences, most notably in loudness dynamics: high-experience teachers, undergraduate classes and collaborative learning tasks exhibited greater loudness variation, suggesting more frequent modulation of volume to foreground key information and support classroom interaction and engagement.
+
+### Turning 500+ Students into Teachers: A Semester-Long Study of an AI Teachable Agent in an Undergraduate Algorithms Course
+Chenyang Wang, Christopher Petrie, Miltiadis Stouras, Nicolas Ettlin, Amaury George, Paola Mejia-Domenzain, Vinitra Swamy, Tanja Käser, Ola Svensson
+2026 · ACM Conference on Learning @ Scale (L@S '26) · DOI: 10.1145/3774398.3811623
+Page: https://paola-md.github.io/papers/turning-500-students-into-teachers-a-semester-long-study-of-an-ai-teacha.html
+
+### Scenario-Based Learning Through and with AI: Evidence-Informed Simulations for Education Leaders
+Ella Hamonic, Candy Lugaz, Annina Demirag, Rémi Sharrock, Agustina Thailinger, Maria Victoria Picchio, Vinitra Swamy, Paola Mejia-Domenzain
+2026 · Communications in Computer and Information Science · DOI: 10.1007/978-3-032-29794-5_24
+Page: https://paola-md.github.io/papers/scenario-based-learning-through-and-with-ai-evidence-informed-simulation.html
+
+### Making machine learning findings accessible to teachers in blended classrooms
+Paola Mejia-Domenzain, Seyed Parsa Neshaei, Eva Laini, Tanya Nazaretsky, Peter Bühlmann, Tanja Käser
+2026 · International Journal of Artificial Intelligence in Education · DOI: 10.1016/j.ijaied.2026.100001
+Page: https://paola-md.github.io/papers/making-machine-learning-findings-accessible-to-teachers-in-blended-class.html
+
+Managing blended learning environments, which combine traditional face-to-face and online learning, can be challenging for teachers as it requires adapting and orchestrating both components effectively. Learning analytics dashboards (LAD) can provide teachers with insights into students' self-studying habits in the online component. While recent advances in machine learning (ML) enable the identification of meaningful behavioral patterns, existing LADs mostly focus on aggregated information. Reasons for this are manifold: including the potential lack of trust in ML processes and the intricate nature of their visualizations. In this paper, we follow a teacher-centered approach to study how to make ML-based findings accessible to teachers. We first design multiple visualizations and assess their perceived clarity, appeal, and actionability in a user study with 100 teachers. We then implement these visualizations on a dashboard to monitor student self-regulated learning behavior and adapt it to two different learning contexts: Reflective Writing and Flipped Classrooms. We evaluate the effectiveness and applicability of our dashboard through semi-structured interviews with 19 teachers. Our findings suggest that the visualization preferences, requirements, use, and concerns of LADs differ considerably between both contexts. Our study contributes to understanding teachers' design preferences in LADs and the integration of ML-based findings into classrooms.
+
+### The critical role of trust in adopting AI-powered educational technology for learning: An instrument for measuring student perceptions
+Tanya Nazaretsky, Paola Mejia-Domenzain, Vinitra Swamy, Jibril Frej, Tanja Käser
+2025 · Computers and Education: Artificial Intelligence · DOI: 10.1016/j.caeai.2025.100368
+Page: https://paola-md.github.io/papers/the-critical-role-of-trust-in-adopting-ai-powered-educational-technology.html
+
+In recent decades, we have witnessed the democratization of AI-powered Educational Technology (AI-EdTech). However, despite the increased accessibility and evolving technological capabilities, its adoption is accompanied by significant challenges, predominantly rooted in social and psychological aspects. At the same time, limited research has been conducted on human factors, especially trust, influencing students' readiness and willingness to adopt AI-EdTech. This study aims to bridge this gap by addressing the multidimensional nature of trust and developing a new instrument for measuring students' perceptions of adopting AI-EdTech. With 665 student responses, we employ Exploratory and Confirmatory Factor Analysis to provide evidence of the instrument's internal validity and identify four key factors influencing students' trust and readiness to adopt AI-EdTech. We then utilize Structural Equations Modeling to explore the causal relationships among these factors, confirming that students' trust in AI-EdTech positively influences AI-EdTech's perceived usefulness both directly and indirectly through AI-readiness. Finally, we use our instrument to analyze 665 student responses, covering eight courses and Bachelor's and Master's degree programs. Our contribution is two-fold. First, by introducing the empirically validated instrument, we address the need for more consistent and reliable assessments of trust-related factors in student adoption of AI-EdTech. Second, our findings confirm that student demographics, specifically gender and educational background, significantly correlated with their trust perceptions, emphasizing the importance of addressing the specific needs of students with various demographics.
+
+### Metacognition meets AI : Empowering reflective writing with large language models
+Seyed Parsa Neshaei, Paola Mejia-Domenzain, Richard L. Davis, Tanja Käser
+2025 · British Journal of Educational Technology · DOI: 10.1111/bjet.13601
+Page: https://paola-md.github.io/papers/metacognition-meets-ai-empowering-reflective-writing-with-large-language.html
+
+Abstract Reflective writing is known as a useful method in learning sciences to improve the metacognitive skills of students. However, students struggle to structure their reflections properly, limiting the possible learning gains. Previous works in educational technologies literature have explored the paradigms of learning from worked and modelling examples, but (a) their application to the domain of reflective writing is rare, (b) such methods might not scale properly to large-scale classrooms, and (c) they do not necessarily take the learning needs of each student into account. In this work, we suggest two approaches of integrating AI-enabled support in digital systems designed around learning from worked and modelling examples paradigms, to provide personalized learning and feedback to students using large language models (LLMs). We evaluate Reflectium, our reflective writing assistant, show benefits of integrating AI support into the learning from examples modalities and compare the perception of the users and their interaction behaviour when using each version of our tool. Our work sheds light on the applicability of generative LLMs to different types of providing support using the learning from examples paradigm, in the domain of reflective writing. Practitioner notes What is already known about this topic Reflective writing fosters metacognitive skills and improves learning gains and personal growth. The learning from worked and modelling examples paradigms is effective for skill acquisition and applying the acquired knowledge. Existing reflective writing assistants usually lack dynamic, AI-driven feedback or interactivity, limiting personalization and adaptability to each user's own needs in the learning process. What this paper adds It introduces Reflectium, an AI-enabled reflective writing assistant, integrating intelligent and interactive writing support for both the learning from worked and modelling examples paradigms. It demonstrates the use of a fine-tuned large language model (LLM) for providing feedback in the learning from worked examples version, and an LLM-powered conversational agent simulating instructor interactions for the learning from modelling examples version. It reports findings from a user study comparing the positive impact of artificial intelligence (AI) support on learners' performance, interaction behaviour and learning experience. Implications for practice and/or policy Digital tutoring systems for teaching reflective writing using the learning from worked examples paradigm should incorporate adaptive AI feedback to enhance learning gains. Conversational agents simulating peers/instructors and powered by LLMs can provide scalable, interactive support for learning from modelling examples, notably in large-scale educational settings. Reflective writing tools should be evaluated for their impact on different aspects of the learning process, such as task performance, interaction behaviour and user experience, to guide future improvements. Educators and policymakers should consider the integration of AI-driven reflective writing tools into teaching curricula to enhance reflective practices and metacognitive skill development.
+
+### Who Gives Feedback Matters: Student Biases Towards Human and AI-Generated Formative Feedback
+Tanya Nazaretsky, Paola Mejia-Domenzain, Vinitra Swamy, Jibril Frej, Tanja Käser
+2025 · Journal of Computer Assisted Learning · DOI: 10.1111/jcal.70153
+Page: https://paola-md.github.io/papers/who-gives-feedback-matters-student-biases-towards-human-and-ai-generated.html
+
+ABSTRACT Background Feedback is essential for learning, helping individuals understand and improve their performance. However, providing timely, personalised feedback in higher education is challenging. Generative AI offers a scalable solution, yet little is known about students' biases towards AI-generated feedback. Objectives This study aims to investigate how the identity of the feedback provider (human vs. AI) affects students' perceptions of feedback quality and credibility. Methods The study involved 472 students across diverse academic programmes and levels in authentic educational environments and employed a within-subject experimental design with a priming effect. A mixed-methods approach combined quantitative analysis of feedback evaluations with qualitative insights into students' perceptions to deepen understanding of the observed biases. Results and Conclusions Students perceived AI as a significantly less credible feedback provider and tended to associate lower feedback quality with AI. Disclosing the feedback provider's identity led to decreased evaluations of AI-generated feedback and an increased preference for human-crafted feedback. These patterns were consistent across academic levels, genders, and fields of study. These insights highlight the need for targeted interventions, such as improving AI literacy and building human-in-the-loop systems, to mitigate biases and enhance the effectiveness of AI in educational feedback systems.
+
+### User-centric Reflective Writing Assistance: Leveraging RAG for Enhanced Personalized Support
+Seyed Parsa Neshaei, Matea Tashkovska, Paola Mejia-Domenzain, Thiemo Wambsganß, Tanja Käser
+2025 · CHI '25 Extended Abstracts · DOI: 10.1145/3706599.3719899
+Page: https://paola-md.github.io/papers/user-centric-reflective-writing-assistance-leveraging-rag-for-enhanced-p.html
+
+Figure 1: An overview of the primary interface of Memoire, our intelligent assistant for reflective writing.Learners start by viewing their past written reflections (a) and then write new reflections with the support of intelligent, context-aware, and personalized suggestions generated using a RAG-based pipeline, related to both their most similar previous reflections and their current text (b).We have translated an imaginary user profile from German into English to present in this paper.
+
+### "Piecing Data Connections Together Like a Puzzle": Effects of Increasing Task Complexity on the Effectiveness of Data Storytelling Enhanced Visualisations
+Mikaela Milesi, Paola Mejia-Domenzain, Laura Brandl, Vanessa Echeverría, Yueqiao Jin, Dragan Gašević, Yi-Shan Tsai, Tanja Käser, Roberto Martínez-Maldonado
+2025 · CHI Conference on Human Factors in Computing Systems (CHI '25) · DOI: 10.1145/3706598.3714270 · co-first author
+Page: https://paola-md.github.io/papers/piecing-data-connections-together-like-a-puzzle-effects-of-increasing-ta.html
+
+The emerging concept of data storytelling (DS) suggests that enhancing visualisations with annotations and narratives can make complex data more insightful than conventional visualisations. Previous works found that DS-enhanced visualisations are more effective than conventional visualisations for simple tasks like identifying key data points or the main message. However, no previous work has explored the extent to which DS enhancements influence task completion across different levels of cognitive complexity. We address this gap by presenting the results of a study where 128 participants completed tasks based on four visualisations (two line charts and two choropleth maps, either with or without DS elements) spanning a range of complexity based on Bloom's taxonomy, which has been applied in data visualisation to categorise tasks hierarchically from lower to higher-order thinking. Results suggest that while DS-enhanced visualisations effectively support lower-order tasks (finding data points and understanding insights), they don't necessarily aid the correct completion of higher-order tasks (application, analysis, evaluation and creation). However, DS enhancements improve how efficiently participants complete complex tasks.
+
+### TeamTeachingViz: Benefits, Challenges, and Ethical Considerations of Using a Multimodal Analytics Dashboard to Support Team Teaching Reflection
+Riordan Alfredo, Paola Mejia-Domenzain, Vanessa Echeverría, Dwi Lestari Rahayu, Linxuan Zhao, Haya Alajlan, Zachari Swiecki, Tanja Käser, Dragan Gašević, Roberto Martínez-Maldonado
+2025 · Learning Analytics and Knowledge (LAK '25) · DOI: 10.1145/3706468.3706475 · co-first author
+Page: https://paola-md.github.io/papers/teamteachingviz-benefits-challenges-and-ethical-considerations-of-using-.html
+
+Team teaching in higher education can be challenging, especially for educators managing large classes with limited pedagogical training and few opportunities to reflect on their practices. Emerging sensing technologies and analytics can capture and analyse patterns of collaboration, communication, and movement of team teaching. Yet, few studies have presented these data to educators for reflection. To address this gap, we examine the benefits, challenges, and concerns of presenting multimodal teaching data (positional, audio, and spatial pedagogy observations) to educators via the TeamTeachingViz dashboard. We evaluated TeamTeachingViz in an authentic classroom context where educators explored their own data and team teaching strategies. Multimodal data was collected from 36 in-the-wild classroom sessions involving 12 educators grouped in various combinations over 4 weeks, followed by semi-structured interviews to reflect on their practices. Findings suggest that educators improved their self-awareness by using data-driven insights to understand their movements and interactions, enabling continuous improvement in team teaching. However, they noted the need for additional data, such as student behaviours and speech content, to better contextualise these insights.
+
+### Behavioural transitions in team teaching
+Yuchen Liu, Sadia Nawaz, Mohammed Saqr, Sonsoles López-Pernas, Riordan Alfredo, Paola Mejia-Domenzain, Dwi Rahayu, Roberto Martínez-Maldonado
+2025 · ASCILITE · DOI: 10.65106/apubs.2025.2634
+Page: https://paola-md.github.io/papers/behavioural-transitions-in-team-teaching.html
+
+As team teaching becomes increasingly common in higher education, understanding how teams of teachers coordinate their behaviours in the classroom is critical for effective instruction and instructional design. While prior research has examined teaching behaviours through classroom observations, much of this work has tended to treat behaviours as isolated categories. This is, focusing on what occurs rather than how behaviours transition over time. Moreover, whether teachers with different levels of teaching experience exhibit distinct behavioural transitions in team teaching remains underexplored. This study addresses this gap by investigating how teaching behavioural transitions differ between high and low experience teachers working as a team in the classroom. Drawing on human-coded observations from 36 team-taught university sessions, and analysed using Transition Network Analysis (TNA), we visualised and compared patterns of behavioural transitions. The results revealed significant differences in behavioural transitions between teachers of varying experience levels. High experience teachers were more likely to transition directly from lecturing into interactions with students, and subsequently into real-time instructional adjustments, demonstrating instructional responsiveness and adaptability. In contrast, low experience teachers demonstrated a stronger reliance on peer coordination. This finding highlights the role of teaching experience in shaping team teaching dynamics and offers implications for teacher pairing and professional development.
+
+### BloomTutor: Retrieval Augmentation for Bloom's Taxonomy Question Generation
+Yannis Laaroussi, Vinitra Swamy, Paola Mejia-Domenzain, Adrien Vauthey, Aybars Yazici, Maxime Perrot, Tanja Käser
+2025 · EPFL Infoscience
+Page: https://paola-md.github.io/papers/bloomtutor-retrieval-augmentation-for-bloom-s-taxonomy-question-generati.html
+
+We present BloomTutor, an Intelligent Tutoring System (ITS) that integrates Retrieval-Augmented Generation (RAG) with Bloom's Taxonomy to support learners in exploring, revising, or querying specific topics within a predefined subject or course. Our system retrieves relevant course materials based on user queries, segments them into concise chunks, and generates questions aligned with cognitive levels. Learner responses guide real-time adjustments in question difficulty, enabling progression toward higher-order thinking or reinforcement of foundational concepts. Unlike most ITS that rely on fixed question banks, Bloom-Tutor generates context-specific questions in real time, allowing greater coverage and responsiveness to diverse learner queries and progress.
+
+### AI or Human? Evaluating Student Feedback Perceptions in Higher Education
+Tanya Nazaretsky, Paola Mejia-Domenzain, Vinitra Swamy, Jibril Frej, Tanja Käser
+2024 · European Conference on Technology Enhanced Learning (ECTEL 2024) · DOI: 10.1007/978-3-031-72315-5_20 · Best Paper Award
+Page: https://paola-md.github.io/papers/ai-or-human-evaluating-student-feedback-perceptions-in-higher-education.html
+
+Feedback plays a crucial role in learning by helping individuals understand and improve their performance. Yet, providing timely, personalized feedback in higher education presents a challenge due to the large and diverse student population, often resulting in delayed and generic feedback. Recent advances in generative Artificial Intelligence (AI) offer a solution for delivering timely and scalable feedback. However, little is known about students' perceptions of AI feedback. In this paper, we investigate how the identity of the feedback provider affects students' perception, focusing on the comparison between AI-generated and human-created feedback. Our approach involves students evaluating feedback in authentic educational settings both before and after disclosing the feedback provider's identity, aiming to assess the influence of this knowledge on their perception. Our study with 457 students across diverse academic programs and levels reveals that students' ability to differentiate between AI and human feedback depends on the task at hand. Disclosing the identity of the feedback provider affects students' preferences, leading to a greater preference for human-created feedback and a decreased evaluation of AI-generated feedback. Moreover, students who failed to identify the feedback provider correctly tended to rate AI feedback higher, whereas those who succeeded preferred human feedback. These tendencies are similar across academic levels, genders, and fields of study. Our results highlight the complexity of integrating AI into educational feedback systems and underline the importance of considering student perceptions in AI-generated feedback adoption in higher education.
+
+### Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection
+Isadora Salles, Paola Mejia-Domenzain, Vinitra Swamy, Julian Blackwell, Tanja Käser
+2024 · Communications in Computer and Information Science · DOI: 10.1007/978-3-031-64315-6_35 · Best Late-Breaking Results Award
+Page: https://paola-md.github.io/papers/interpret3c-interpretable-student-clustering-through-individualized-feat.html
+
+Clustering in education, particularly in large-scale online environments like MOOCs, is essential for understanding and adapting to diverse student needs. However, the effectiveness of clustering depends on its interpretability, which becomes challenging with high-dimensional data. Existing clustering approaches often neglect individual differences in feature importance and rely on a homogenized feature set. Addressing this gap, we introduce Interpret3C (Interpretable Conditional Computation Clustering), a novel clustering pipeline that incorporates interpretable neural networks (NNs) in an unsupervised learning context. This method leverages adaptive gating in NNs to select features for each student. Then, clustering is performed using the most relevant features per student, enhancing clusters' relevance and interpretability. We use Interpret3C to analyze the behavioral clusters considering individual feature importances in a MOOC with over 5,000 students. This research contributes to the field by offering a scalable, robust clustering methodology and an educational case study that respects individual student differences and improves interpretability for high-dimensional data.
+
+### Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes
+Paola Mejia-Domenzain, Jibril Frej, Seyed Parsa Neshaei, Luca Mouchel, Tanya Nazaretsky, Thiemo Wambsganß, Antoine Bosselut, Tanja Käser
+2024 · International Journal of Artificial Intelligence in Education · DOI: 10.1007/s40593-024-00405-1
+Page: https://paola-md.github.io/papers/enhancing-procedural-writing-through-personalized-example-retrieval-a-ca.html
+
+Writing high-quality procedural texts is a challenging task for many learners. While example-based learning has shown promise as a feedback approach, a limitation arises when all learners receive the same content without considering their individual input or prior knowledge. Consequently, some learners struggle to grasp or relate to the feedback, finding it redundant and unhelpful. To address this issue, we present RELEX , an adaptive learning system designed to enhance procedural writing through personalized example-based learning. The core of our system is a multi-step example retrieval pipeline that selects a higher quality and contextually relevant example for each learner based on their unique input. We instantiate our system in the domain of cooking recipes. Specifically, we leverage a fine-tuned Large Language Model to predict the quality score of the learner’s cooking recipe. Using this score, we retrieve recipes with higher quality from a vast database of over 180,000 recipes. Next, we apply BM25 to select the semantically most similar recipe in real-time. Finally, we use domain knowledge and regular expressions to enrich the selected example recipe with personalized instructional explanations. We evaluate RELEX in a 2 x 2 controlled study (personalized vs. non-personalized examples, reflective prompts vs. none) with 200 participants. Our results show that providing tailored examples contributes to better writing performance and user experience.
+
+### Teaching and Measuring Multidimensional Inquiry Skills using Interactive Simulations
+Ekaterina Shved, Engin Bumbacher, Paola Mejia-Domenzain, Manu Kapur, Tanja Käser
+2024 · Lecture Notes in Computer Science (AIED 2024) · DOI: 10.1007/978-3-031-64302-6_34
+Page: https://paola-md.github.io/papers/teaching-and-measuring-multidimensional-inquiry-skills-using-interactive.html
+
+Interactive simulations play a significant role in science education, serving as a platform for inquiry-based learning and fostering the development of scientific knowledge and skills. However, teaching and quantitatively measuring inquiry strategies has proven to be challenging due to their complex and inherently multidimensional nature. Our study goes beyond the prevalent focus on the Control of Variables Strategy (CVS) in prior work by incorporating additional relevant inquiry strategies in both teaching and measurement: exploring the variable range and conducting experiments under optimal conditions. We tested two different instructional approaches to jointly teach the three strategies by focusing either on data collection or on data interpretation. 161 chemistry apprentices were randomly assigned to one of the two instructional conditions or a control group without instruction and engaged in experimentation using an interactive simulation. In order to analyze joint strategy use, we applied a multi-step clustering method to students' log data that helped identify multidimensional student profiles of inquiry strategies. We found four profiles that related differently to conceptual learning, suggesting that combining strategies is more effective for conceptual learning than utilizing them individually. We also found that students instructed on data collection increased the use of strategy combinations with an emphasis on CVS. This suggests a potential avenue for assessing instruction efficacy, indicating that the impact may be strategy-specific. Source code and materials are released at https://github.com/epfl-ml4ed/inquiry-skills.
+
+### Navigating Self-regulated Learning Dimensions: Exploring Interactions Across Modalities
+Paola Mejia-Domenzain, Tanya Nazaretsky, Simon Schultze, Jan Hochweber, Tanja Käser
+2024 · Lecture Notes in Computer Science · DOI: 10.1007/978-3-031-64299-9_8
+Page: https://paola-md.github.io/papers/navigating-self-regulated-learning-dimensions-exploring-interactions-acr.html
+
+Self-regulated learning (SRL) has been extensively studied using self-reported measures, such as surveys, and more recently, behavioral measures, such as trace data. While both modalities offer insights into SRL, their relationship remains ambiguous. Although previous research has compared these modalities, there has been limited work on integrating them and exploring the interplay of dimensions across modalities. To address this gap, we adopt a multimodal perspective and follow a threefold approach: horizontal, vertical, and integrated analyses. We identify behaviors per dimension from both data sources in the horizontal analysis. We then assess the alignment of dimensions across modalities in the vertical analysis. Finally, in the integrated analysis, we uncover the intricate interplay between dimensions across modalities using Canonical Correlation Analysis. For this purpose, we design and conduct a study with 79 participants interacting with an Intelligent Tutoring System. We find limited agreement in the vertical comparison between modalities. However, the integrated analysis reveals a moderate correlation, highlighting the complex relationship between behavioral actions and self-reported SRL perceptions.
+
+### GELEX: Generative AI-Hybrid System for Example-Based Learning
+Aybars Yazici, Paola Mejia-Domenzain, Jibril Frej, Tanja Käser
+2024 · CHI '24 Extended Abstracts · DOI: 10.1145/3613905.3650900
+Page: https://paola-md.github.io/papers/gelex-generative-ai-hybrid-system-for-example-based-learning.html
+
+Traditional example-based learning methods are often limited by static, expert-created content. Hence, they face challenges in scalability, engagement, and effectiveness, as some learners might struggle to relate to the examples or find them relevant. To address these challenges, we introduce GELEX (GEnerative-AI Learning through EXamples), a hybrid Artificial Intelligence (AI) system enhancing example-based learning by using large language models (LLMs). Our hybrid system incorporates mechanisms to control and evaluate the AI output, acknowledging and addressing the potential factual inaccuracies of LLMs. We instantiate our system in the cooking domain. Our approach utilizes association rule mining on a large database of recipes to identify key patterns. When learners submit a recipe for feedback, a LLM enriches it by integrating these patterns. Then, learners are prompted to actively process the example by highlighting the changes and critically assessing the modifications. This strategy transforms traditional example-based learning into a dynamic, scalable, interactive educational tool.
+
+### Student Answer Forecasting: Transformer-Driven Answer Choice Prediction for Language Learning
+Elena Grazia Gado, Tommaso Martorella, Luca Zunino, Paola Mejia-Domenzain, Vinitra Swamy, Jibril Frej, Tanja Käser
+2024 · arXiv preprint · DOI: 10.48550/arxiv.2405.20079
+Page: https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html
+
+Intelligent Tutoring Systems (ITS) enhance personalized learning by predicting student answers to provide immediate and customized instruction. However, recent research has primarily focused on the correctness of the answer rather than the student's performance on specific answer choices, limiting insights into students' thought processes and potential misconceptions. To address this gap, we present MCQStudentBert, an answer forecasting model that leverages the capabilities of Large Language Models (LLMs) to integrate contextual understanding of students' answering history along with the text of the questions and answers. By predicting the specific answer choices students are likely to make, practitioners can easily extend the model to new answer choices or remove answer choices for the same multiple-choice question (MCQ) without retraining the model. In particular, we compare MLP, LSTM, BERT, and Mistral 7B architectures to generate embeddings from students' past interactions, which are then incorporated into a finetuned BERT's answer-forecasting mechanism. We apply our pipeline to a dataset of language learning MCQ, gathered from an ITS with over 10,000 students to explore the predictive accuracy of MCQStudentBert, which incorporates student interaction patterns, in comparison to correct answer prediction and traditional mastery-learning feature-based approaches. This work opens the door to more personalized content, modularization, and granular support.
+
+### Visualizing Self-Regulated Learner Profiles in Dashboards: Design Insights from Teachers
+Paola Mejia-Domenzain, Eva Laini, Seyed Parsa Neshaei, Thiemo Wambsganß, Tanja Käser
+2023 · Communications in Computer and Information Science · DOI: 10.1007/978-3-031-36336-8_96
+Page: https://paola-md.github.io/papers/visualizing-self-regulated-learner-profiles-in-dashboards-design-insight.html
+
+Flipped Classrooms (FC) are a promising teaching strategy, where students engage with the learning material before attending face-to-face sessions. While pre-class activities are critical for course success, many students struggle to engage effectively in them due to inadequate of self-regulated learning (SRL) skills. Thus, tools enabling teachers to monitor students' SRL and provide personalized guidance have the potential to improve learning outcomes. However, existing dashboards mostly focus on aggregated information, disregarding recent work leveraging machine learning (ML) approaches that have identified comprehensive, multi-dimensional SRL behaviors. Unfortunately, the complexity of such findings makes them difficult to communicate and act on. In this paper, we follow a teacher-centered approach to study how to make thorough findings accessible to teachers. We design and implement FlippED, a dashboard for monitoring students' SRL behavior. We evaluate the usability and actionability of the tool in semi-structured interviews with ten university teachers. We find that communicating ML-based profiles spark a range of potential interventions for students and course modifications.
+
+### Understanding Revision Behavior in Adaptive Writing Support Systems for Education
+Luca Mouchel, Thiemo Wambsganß, Paola Mejia-Domenzain, Tanja Käser
+2023 · Zenodo · DOI: 10.5281/zenodo.8115766
+Page: https://paola-md.github.io/papers/understanding-revision-behavior-in-adaptive-writing-support-systems-for-.html
+
+Revision behavior in adaptive writing support systems is an important and relatively new area of research that can improve the design and effectiveness of these tools, and promote students' self-regulated learning (SRL). Understanding how these tools are used is key to improving them to better support learners in their writing and learning processes. In this paper, we present a novel pipeline with insights into the revision behavior of students at scale. We leverage a data set of two groups using an adaptive writing support tool in an educational setting. With our novel pipeline, we show that the tool was effective in promoting revision among the learners. Depending on the writing feedback, we were able to analyze different strategies of learners when revising their texts, we found that users of the exemplary case improved over time and that females tend to be more efficient. Our research contributes a pipeline for measuring SRL behaviors at scale in writing tasks (i.e., engagement or revision behavior) and informs the design of future adaptive writing support systems for education, with the goal of enhancing their effectiveness in supporting student writing. The source code is available at https://github.com/lucamouchel/Understanding-Revision-Behavior.
+
+### Identifying and Comparing Multi-dimensional Student Profiles Across Flipped Classrooms
+Paola Mejia-Domenzain, Mirko Marras, Christian Giang, Tanja Käser
+2022 · Lecture Notes in Computer Science · DOI: 10.1007/978-3-031-11644-5_8
+Page: https://paola-md.github.io/papers/identifying-and-comparing-multi-dimensional-student-profiles-across-flip.html
+
+Flipped classroom (FC) courses, where students complete pre-class activities before attending interactive face-to-face sessions, are becoming increasingly popular. However, many students lack the skills, resources, or motivation to effectively engage in pre-class activities. Profiling students based on their pre-class behavior is therefore fundamental for teaching staff to make better-informed decisions on the course design and provide personalized feedback. Existing student profiling techniques have mainly focused on one specific aspect of learning behavior and have limited their analysis to one FC course. In this paper, we propose a multi-step clustering approach to model student profiles based on pre-class behavior in FC in a multi-dimensional manner, focusing on student effort, consistency, regularity, proactivity, control, and assessment. We first cluster students separately for each behavioral dimension. Then, we perform another level of clustering to obtain multi-dimensional profiles. Experiments on three different FC courses show that our approach can identify educationally-relevant profiles regardless of the course topic and structure. Moreover, we observe significant academic performance differences between the profiles.
+
+### Evolutionary Clustering of Apprentices' Self-Regulated Learning Behavior in Learning Journals
+Paola Mejia-Domenzain, Mirko Marras, Christian Giang, Alberto Cattáneo, Tanja Käser
+2022 · IEEE Transactions on Learning Technologies · DOI: 10.1109/tlt.2022.3195881
+Page: https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-self-regulated-learning-behavior-.html
+
+Learning journals are increasingly used in vocational education to foster self-regulated learning and reflective learning practices. However, for many apprentices, documenting working experiences is a difficult task. In this article, we profile apprentices' learning behavior in an online learning journal. Based on a pedagogical framework, we propose a novel multistep clustering pipeline that integrates different learning dimensions into a combined profile. Specifically, the profiles are described in terms of effort, consistency, regularity, help-seeking behavior, and quality of the written entries. Our results on two populations of chef apprentices (183 apprentices) interacting with an online learning journal (over 121K entries) show that our pipeline captures changes in learning patterns over time and yields interpretable profiles that can be related to academic performance. The obtained profiles can be used as a basis for personalized interventions, with the ultimate goal of improving the apprentices' learning experience.
+
+## Experience
+- 2025 — — Co-Founder & CTO, Scholé AI (Lausanne). AI personalised learning platform for workforce upskilling. Lead product and engineering for an agentic system that adapts to a learner's role, workflow and organisational context. Raised a $3M seed round led by ACE Ventures; built and scaled the engineering team; collaborations with Swisscom and Decathlon; Kickstart Innovation 2025.
+- 2024 — Visiting Researcher, Centre for Learning Analytics at Monash (CoLAM) (Melbourne). Hosted as a collaborator of Roberto Martinez-Maldonado. Ran a large-scale study on how data storytelling affects task performance across levels of cognitive complexity, and studied multimodal dashboards for team-teaching reflection.
+- 2020 — 2025 — Doctoral Researcher, EPFL ML4ED (Lausanne). Machine Learning for Education Laboratory, advised by Tanja Käser. EDIC Fellowship; EPFL IC Distinguished Service Award; Vice-President of the IC PhD Association (EPIC).
+- 2019 — 2020 — Junior Researcher, Data Science Center, ITAM (Mexico City). Advised by Adolfo de Unanue and Liliana Millán, at the spin-off of Data Science for Social Good (University of Chicago / CMU). Built a university-dropout early-prediction model and the AWS infrastructure serving it in real time.
+- 2018 — 2020 — Research Assistant, Economic Research Center (CIE) (Mexico City). Advised by Enrique Seira and Mauricio Romero. Worked with the World Bank and Mexico's Central Bank to identify schools at risk of declining performance, and analysed internal migration patterns from the electoral register, 2009–2018.
+
+## Education
+- 2025 — PhD, Computer Science, EPFL, Lausanne. Advisor: Tanja Käser. Thesis: Personalizing Learning and Empowering Educators through Multi-Dimensional Clustering, Teacher Dashboards, and AI-Hybrid Learning Systems.
+- 2020 — MSc, Data Science, ITAM, Mexico City. Thesis advisors: Enrique Seira, Mauricio Romero. XXVI Research Award Ex-ITAM.
+- 2019 — BSc, Computer Engineering, ITAM, Mexico City. Thesis advisor: Salvador Marmol. Flecha al aire Award 2019.
+
+## Awards
+- 2025 — Innosuisse grant: for research development of adaptive learning systems (Scholé)
+- 2024 — Tools Competition winner: Building an Adaptive and Competitive Workforce (Scholé)
+- 2024 — Best Paper Award: ECTEL — AI or Human? Evaluating Student Feedback Perceptions
+- 2024 — Best Late-Breaking Results Award: AIED — Interpret3C
+- 2022 — EPFL IC Distinguished Service Award: as Vice-President of the IC PhD Association
+- 2022 — EDIC Fellowship: EPFL doctoral programme in Computer and Communication Sciences
+- 2021 — XXVI Research Award Ex-ITAM: first place, computer engineering
+- 2020 — ANFEI Academic Excellence Award: National Association of Faculties and Schools of Engineering
+- 2019 — Flecha al aire Award: best undergraduate thesis related to education
+
+## Teaching
+- CS-421 Machine Learning for Behavioral Data — EPFL, Spring 2021–2025. Helped Tanja Käser build this master's course from scratch; designed tutorials, labs, homework and project assignments on real data, and supervised semester-long student projects.
+- CS-401 Applied Data Analysis — EPFL, Autumn 2021. Guided students through a semester-long analysis project ending in a data story.
+- CS-101 Advanced Information, Computation, Communication I — EPFL, Autumn 2022, 2023. Led a team of ten teaching assistants running weekly tutorials and quizzes.
+- Mathematics Weekend School — ITAM Construye (NPO), Mexico City, 2016–2019. Founded and ran a weekend maths programme for underprivileged children aged 6–14, leading ~24 volunteers teaching 160 students.
+
+## Students supervised (20)
+- 2026 — Aaron Dinesh, "SEAL: Secure and Efficient Aggregation for Personalized Learning" (Semester Project). Now: MSc Computational Science & Engineering, EPFL · ML intern at Logitech
+- 2026 — Maxime Ducourau, "ContextaViz: The Effect of Contextualization and Progressive Hints on Visualization Literacy" (Semester Project). Now: MSc Data Science, EPFL · master’s project at RTE
+- 2025 — Adrien Vauthey, "Creation and Evaluation of Knowledge Graph with Human in the Loop" (Semester Thesis). Now: Data scientist & analyst
+- 2025 — Yannis Laaroussi, "RAG with Knowledge Graphs for Context-Aware Content Creation" (Semester Project). Now: Data scientist at 4K-MEMS
+- 2025 — Othmane Idrissi Oudghiri, "Personalized Knowledge Graph Paths" (Semester Project). Now: Quant researcher & data scientist at CF Tradition
+- 2025 — Yasmin Ben Rahhal, "Knowledge Tracing with LLMs to Extract Student History in ITS" (Semester Project). Now: Informatics engineer, MSc Computer Science, EPFL
+- 2024 — Aybars Yazici, "Exploring the Effect of Generative AI in Example-Based Learning" (Semester Project). Now: AIOps & ML engineer at Cisco
+- 2024 — Matea Tashkovska, "Adaptive Reflection Assistance with Memory" (Semester Project). Now: PhD student at EPFL
+- 2024 — Amaury George, "Learning by Explaining: Results of a Longitudinal Large-Scale Classroom Study" (Semester Project). Now: Quantitative researcher at Squarepoint
+- 2024 — Ali Ridha Mrad, "Analysis of Large-Scale Study on Personalized SRL Messages in Online Learning Platform" (Summer Intern). Now: MSc Data Science, EPFL · AI engineer intern at Nexthink
+- 2023 — Aybars Yazici, "Investigating the Effectiveness of AI-Generated Examples for Learning" (Semester Project). Now: AIOps & ML engineer at Cisco
+- 2023 — Amine Atallah, "Clustering Multi-Variate Time Series and Transition Probabilities" (Semester Project). Now: Security engineer & consultant
+- 2023 — Shashwat Gupta, "Active Learning for Text Classification" (Semester Project). Now: CS at UIUC · Microsoft Research
+- 2023 — Isadora Salles, "Intrinsically Interpretable Clustering for Students in MOOCs" (Summer Intern). Now: Data scientist at Kunumi
+- 2022 — Ghali Chraïbi, "Analysis of SRL Behavior in Large-Scale Study with Lernnavi" (Summer Intern). Now: Data scientist at the Swiss Data Science Center
+- 2022 — Eva Laini, "Analyzing and Visualizing Student Behavior in Flipped Classrooms" (Master Thesis)
+- 2022 — Gioele Monopoli, "Multi-Class Prediction of Learning Journal Competencies" (Semester Project). Now: AI lead · previously Huawei, DLR
+- 2022 — Luca Mouchel, "Analyzing Revision Behavior in Recipe Writing" (Semester Project). Now: AI research at MIT
+- 2021 — Nataša Krčo, "Exploring Self-Regulated Learning (SRL) Behavior in Language and Math Learning" (Semester Project). Now: PhD student at Imperial College London
+- 2021 — Gonxhe Idrizi, "NLP Analysis of Learning and Performance Documentation Entries of Chef Apprentices" (Semester Project). Now: IT data scientist at Procter & Gamble, Geneva
+
+## Invited talks
+- 2026 — EPFL Engineering Industry Day (Lausanne)
+- 2025 — AIED — Enhancing Procedural Writing through Personalized Example Retrieval (Palermo)
+- 2025 — CHI — Data storytelling and task complexity (Yokohama)
+- 2025 — LAK — Multimodal analytics dashboards for team teaching (Dublin)
+- 2024 — CHI — Generative AI for example-based learning in recipe writing (Honolulu)
+- 2024 — CoLAM seminar — Understanding students' online behaviour (Melbourne)
+- 2023 — ECML-PKDD tutorial — Responsible AI (Turin)
+- 2023 — AIED — Teacher dashboards for visualising SRL profiles (Tokyo)
+- 2023 — Swiss VET Conference — Writing assistance for chef apprentices (Winterthur)
+- 2022 — AIED — Multi-dimensional clustering in flipped classrooms (Durham)
+- 2021 — Swiss VET Conference — Chef apprentices' learning documentation (Lugano)
+
+## Media
+- EPFL: “We should always have a human approach to AI” — https://actu.epfl.ch/news/we-should-always-have-a-human-approach-to-ai/ (Profile of the first two graduating PhDs of EPFL’s ML4ED lab.)
+- Startupticker: Scholé AI raises $3M to transform workforce learning — https://www.startupticker.ch/en/news/schole-ai-raises-3m-to-transform-workforce-learning (Swiss startup press on the seed round led by ACE Ventures, January 2026.)
+- GGBa: Scholé AI raises USD 3 million to scale its AI-native workforce learning platform — https://ggba.swiss/en/schole-ai-raises-usd-3-million-to-scale-its-ai-native-workforce-learning-platform/ (Greater Geneva Bern area investment agency.)
+- PR Newswire: Scholé AI raises $3M to transform workforce learning in the age of AI — https://www.prnewswire.com/news-releases/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai-302671763.html (The funding announcement, 28 January 2026.)
+- HRTech Edge: Scholé AI raises $3M to scale adaptive enterprise learning — https://hrtechedge.com/schole-ai-raises-3m-to-bring-adaptive-ai-native-learning-to-enterprises/ (HR technology trade press.)
+- ACE Ventures: Why we invested in Scholé AI — https://aceventures.vc/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai/ (The lead investor’s announcement.)
+- FinSMEs: Scholé AI raises $3M in funding — https://www.finsmes.com/2026/01/schole-ai-raises-3m-in-funding.html
+- The SaaS News: Scholé AI raises $3 million in funding — https://www.thesaasnews.com/news/schol-ai-raises-3-million-in-funding
+- Tools Competition: Scholé — winner, Building an Adaptive and Competitive Workforce — https://tools-competition.org/winner/schole/ (2024 competition award page.)
+- EPFL Memento: Scholé: a new vision for AI learning — https://memento.epfl.ch/event/schole-a-new-vision-for-ai-learning/
+- Product Hunt: Scholé — turn everyday work into personalised AI learning — https://www.producthunt.com/products/schole-2
+- Le Figaro: Learning in the age of AI — Regards de Dirigeants — https://schole.ai/engineering-blog/le-figaro-interview (Interview with co-founder Vinitra Swamy.)
+- AI Plaza: Learning starts from who you actually are — https://schole.ai/engineering-blog/ai-plaza-feature (Founder interview.)
+- Scholé Engineering Blog: The Trap Inside the Instant Answer — https://schole.ai/engineering-blog/trap-inside-the-instant-answer (If the goal is learning, “did the user get the answer?” is a bad metric.)
+- Scholé Engineering Blog: Escaping the Average — https://schole.ai/engineering-blog/escaping-the-average (Why generative AI can lift the creative floor while lowering the collective ceiling.)
+- Scholé Engineering Blog: Learning Journey as a GPS — https://schole.ai/engineering-blog/learning-journey (A personalised, revisable route that keeps the learner driving.)
+
