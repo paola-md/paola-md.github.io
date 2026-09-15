@@ -3,7 +3,7 @@
 Paola Mejia-Domenzain, Seyed Parsa Neshaei, Eva Laini, Tanya Nazaretsky, Peter Bühlmann, Tanja Käser
 2026 · International Journal of Artificial Intelligence in Education
 
-**Finding.** What teachers want from a learning-analytics dashboard differs considerably between blended and online contexts — preferences, requirements and concerns all shift.
+**Finding.** What teachers want from a learning-analytics dashboard differs considerably between blended and online contexts: preferences, requirements and concerns all shift.
 
 ## Abstract
 
