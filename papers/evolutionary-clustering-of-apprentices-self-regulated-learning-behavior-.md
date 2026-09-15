@@ -15,4 +15,4 @@ Learning journals are increasingly used in vocational education to foster self-r
 - HTML: https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-self-regulated-learning-behavior-.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

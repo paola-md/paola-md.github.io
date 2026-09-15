@@ -16,4 +16,4 @@ Writing high-quality procedural texts is a challenging task for many learners. W
 - HTML: https://paola-md.github.io/papers/enhancing-procedural-writing-through-personalized-example-retrieval-a-ca.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

@@ -16,4 +16,4 @@ The emerging concept of data storytelling (DS) suggests that enhancing visualisa
 - HTML: https://paola-md.github.io/papers/piecing-data-connections-together-like-a-puzzle-effects-of-increasing-ta.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

@@ -13,4 +13,4 @@ Traditional example-based learning methods are often limited by static, expert-c
 - HTML: https://paola-md.github.io/papers/gelex-generative-ai-hybrid-system-for-example-based-learning.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

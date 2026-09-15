@@ -17,4 +17,4 @@ Revision behavior in adaptive writing support systems is an important and relati
 - HTML: https://paola-md.github.io/papers/understanding-revision-behavior-in-adaptive-writing-support-systems-for-.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

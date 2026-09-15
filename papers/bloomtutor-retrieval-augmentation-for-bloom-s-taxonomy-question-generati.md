@@ -11,4 +11,4 @@ We present BloomTutor, an Intelligent Tutoring System (ITS) that integrates Retr
 - HTML: https://paola-md.github.io/papers/bloomtutor-retrieval-augmentation-for-bloom-s-taxonomy-question-generati.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

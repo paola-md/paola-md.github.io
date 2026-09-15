@@ -15,4 +15,4 @@ Flipped classroom (FC) courses, where students complete pre-class activities bef
 - HTML: https://paola-md.github.io/papers/identifying-and-comparing-multi-dimensional-student-profiles-across-flip.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

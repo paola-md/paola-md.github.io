@@ -15,4 +15,4 @@ Intelligent Tutoring Systems (ITS) enhance personalized learning by predicting s
 - HTML: https://paola-md.github.io/papers/student-answer-forecasting-transformer-driven-answer-choice-prediction-f.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

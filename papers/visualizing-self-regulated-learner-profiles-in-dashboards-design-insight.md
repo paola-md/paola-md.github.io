@@ -17,4 +17,4 @@ Flipped Classrooms (FC) are a promising teaching strategy, where students engage
 - HTML: https://paola-md.github.io/papers/visualizing-self-regulated-learner-profiles-in-dashboards-design-insight.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

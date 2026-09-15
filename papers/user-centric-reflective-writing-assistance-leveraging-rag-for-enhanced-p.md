@@ -13,4 +13,4 @@ Figure 1: An overview of the primary interface of Memoire, our intelligent assis
 - HTML: https://paola-md.github.io/papers/user-centric-reflective-writing-assistance-leveraging-rag-for-enhanced-p.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

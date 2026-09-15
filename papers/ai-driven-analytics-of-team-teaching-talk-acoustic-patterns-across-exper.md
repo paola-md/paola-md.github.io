@@ -16,4 +16,4 @@ As classroom cohorts expand, team teaching is increasingly used to integrate the
 - HTML: https://paola-md.github.io/papers/ai-driven-analytics-of-team-teaching-talk-acoustic-patterns-across-exper.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

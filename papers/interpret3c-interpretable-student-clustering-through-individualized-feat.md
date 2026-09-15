@@ -15,4 +15,4 @@ Clustering in education, particularly in large-scale online environments like MO
 - HTML: https://paola-md.github.io/papers/interpret3c-interpretable-student-clustering-through-individualized-feat.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

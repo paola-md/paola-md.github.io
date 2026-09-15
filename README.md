@@ -1,6 +1,6 @@
 # paola-md.github.io
 
-Source for [paola-md.github.io](https://paola-md.github.io) — my academic site.
+Source for [paola-md.github.io](https://paola-md.github.io), my academic site.
 
 Static HTML, no build step. Publications, experience, teaching, supervised students,
 talks, awards and media, generated from my OpenAlex record and CV.

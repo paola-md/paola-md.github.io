@@ -12,4 +12,4 @@ Abstract Reflective writing is known as a useful method in learning sciences to 
 - HTML: https://paola-md.github.io/papers/metacognition-meets-ai-empowering-reflective-writing-with-large-language.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

@@ -14,4 +14,4 @@ Managing blended learning environments, which combine traditional face-to-face a
 - HTML: https://paola-md.github.io/papers/making-machine-learning-findings-accessible-to-teachers-in-blended-class.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

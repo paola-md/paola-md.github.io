@@ -39,10 +39,14 @@ Chenyang Wang, Christopher Petrie, Miltiadis Stouras, Nicolas Ettlin, Amaury Geo
 2026 · ACM Conference on Learning @ Scale (L@S '26) · DOI: 10.1145/3774398.3811623
 Page: https://paola-md.github.io/papers/turning-500-students-into-teachers-a-semester-long-study-of-an-ai-teacha.html
 
+Large language model (LLM) tools can provide students with rapid solutions but may reduce opportunities for productive struggle and explanation generation that support conceptual learning. Learning-by-teaching (LBT) offers an alternative solution by positioning students as tutors; however, evidence for LLM-based teachable agents remains limited, particularly for longitudinal deployments and large-scale evaluations that connect LBT interactions to conceptual understanding in authentic courses. We present Explique, a platform that integrates an AI teachable agent, Algorithm Apprentice, into an undergraduate algorithms course to operationalise LBT at scale. We report an 11-week field deployment in a real course with 546 students, analysing 3,809 student-agent LBT dialogues alongside quiz and survey data. Students engaged consistently in multi-turn teaching interactions over the semester, although the depth and authenticity of these interactions varied, including instances of direct reuse of externally sourced content. Using generalised linear mixed-effects models, we find that explanation-oriented dialogue behaviours (e.g., elaboration and showing reasoning) are associated with fewer quiz attempts (i.e., fewer incorrect submissions), whereas external-content reuse is associated with slightly more repeated attempts. Compared to a baseline reading activity, the LBT condition corresponds to a modest reduction in expected quiz attempts, although this comparison is confounded by substantial differences in time-on-task. Overall, these results provide longitudinal, large-scale evidence on LLM-based teachable agents in an authentic computer science course and inform the design and practice of systems that aim to support sustained, effortful and scalable LBT interactions.
+
 ### Scenario-Based Learning Through and with AI: Evidence-Informed Simulations for Education Leaders
 Ella Hamonic, Candy Lugaz, Annina Demirag, Rémi Sharrock, Agustina Thailinger, Maria Victoria Picchio, Vinitra Swamy, Paola Mejia-Domenzain
 2026 · Communications in Computer and Information Science · DOI: 10.1007/978-3-032-29794-5_24
 Page: https://paola-md.github.io/papers/scenario-based-learning-through-and-with-ai-evidence-informed-simulation.html
+
+This workshop explores how generative AI can strengthen scenario-based learning for the professional development of school and district leaders. Building on IIEP-UNESCO’s work in online and blended learning and Télécom Paris’ expertise in AI-supported learning, we present an approach in which AI not only helps generate context-aware scenarios, but also delivers simulations, prompts reflection, and provides evidence-informed feedback during leadership practice. Participants will experience how AI can place leaders in realistic school situations, invite them to analyse challenges, take decisions, justify their reasoning, and receive coaching-style feedback informed by literature on school leadership, educational planning and management. The workshop also introduces an AI literacy strand for school and district leaders, focused on responsible use, critical judgement, ethics, and leadership for AI integration in education systems. Participants will examine design principles, test simulation formats, and co-design scenarios for leadership learning.
 
 ### Making machine learning findings accessible to teachers in blended classrooms
 Paola Mejia-Domenzain, Seyed Parsa Neshaei, Eva Laini, Tanya Nazaretsky, Peter Bühlmann, Tanja Käser
@@ -185,84 +189,84 @@ Page: https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-s
 Learning journals are increasingly used in vocational education to foster self-regulated learning and reflective learning practices. However, for many apprentices, documenting working experiences is a difficult task. In this article, we profile apprentices' learning behavior in an online learning journal. Based on a pedagogical framework, we propose a novel multistep clustering pipeline that integrates different learning dimensions into a combined profile. Specifically, the profiles are described in terms of effort, consistency, regularity, help-seeking behavior, and quality of the written entries. Our results on two populations of chef apprentices (183 apprentices) interacting with an online learning journal (over 121K entries) show that our pipeline captures changes in learning patterns over time and yields interpretable profiles that can be related to academic performance. The obtained profiles can be used as a basis for personalized interventions, with the ultimate goal of improving the apprentices' learning experience.
 
 ## Experience
-- 2025 — — Co-Founder & CTO, Scholé AI (Lausanne). AI personalised learning platform for workforce upskilling. Lead product and engineering for an agentic system that adapts to a learner's role, workflow and organisational context. Raised a $3M seed round led by ACE Ventures; built and scaled the engineering team; collaborations with Swisscom and Decathlon; Kickstart Innovation 2025.
-- 2024 — Visiting Researcher, Centre for Learning Analytics at Monash (CoLAM) (Melbourne). Hosted as a collaborator of Roberto Martinez-Maldonado. Ran a large-scale study on how data storytelling affects task performance across levels of cognitive complexity, and studied multimodal dashboards for team-teaching reflection.
-- 2020 — 2025 — Doctoral Researcher, EPFL ML4ED (Lausanne). Machine Learning for Education Laboratory, advised by Tanja Käser. EDIC Fellowship; EPFL IC Distinguished Service Award; Vice-President of the IC PhD Association (EPIC).
-- 2019 — 2020 — Junior Researcher, Data Science Center, ITAM (Mexico City). Advised by Adolfo de Unanue and Liliana Millán, at the spin-off of Data Science for Social Good (University of Chicago / CMU). Built a university-dropout early-prediction model and the AWS infrastructure serving it in real time.
-- 2018 — 2020 — Research Assistant, Economic Research Center (CIE) (Mexico City). Advised by Enrique Seira and Mauricio Romero. Worked with the World Bank and Mexico's Central Bank to identify schools at risk of declining performance, and analysed internal migration patterns from the electoral register, 2009–2018.
+- 2025–present: Co-Founder & CTO, Scholé AI (Lausanne). AI personalised learning platform for workforce upskilling. Lead product and engineering for an agentic system that adapts to a learner's role, workflow and organisational context. Raised a $3M seed round led by ACE Ventures; built and scaled the engineering team; collaborations with Swisscom and Decathlon; Kickstart Innovation 2025.
+- 2024: Visiting Researcher, Centre for Learning Analytics at Monash (CoLAM) (Melbourne). Hosted as a collaborator of Roberto Martinez-Maldonado. Ran a large-scale study on how data storytelling affects task performance across levels of cognitive complexity, and studied multimodal dashboards for team-teaching reflection.
+- 2020–2025: Doctoral Researcher, EPFL ML4ED (Lausanne). Machine Learning for Education Laboratory, advised by Tanja Käser. EDIC Fellowship; EPFL IC Distinguished Service Award; Vice-President of the IC PhD Association (EPIC).
+- 2019–2020: Junior Researcher, Data Science Center, ITAM (Mexico City). Advised by Adolfo de Unanue and Liliana Millán, at the spin-off of Data Science for Social Good (University of Chicago / CMU). Built a university-dropout early-prediction model and the AWS infrastructure serving it in real time.
+- 2018–2020: Research Assistant, Economic Research Center (CIE) (Mexico City). Advised by Enrique Seira and Mauricio Romero. Worked with the World Bank and Mexico's Central Bank to identify schools at risk of declining performance, and analysed internal migration patterns from the electoral register, 2009–2018.
 
 ## Education
-- 2025 — PhD, Computer Science, EPFL, Lausanne. Advisor: Tanja Käser. Thesis: Personalizing Learning and Empowering Educators through Multi-Dimensional Clustering, Teacher Dashboards, and AI-Hybrid Learning Systems.
-- 2020 — MSc, Data Science, ITAM, Mexico City. Thesis advisors: Enrique Seira, Mauricio Romero. XXVI Research Award Ex-ITAM.
-- 2019 — BSc, Computer Engineering, ITAM, Mexico City. Thesis advisor: Salvador Marmol. Flecha al aire Award 2019.
+- 2025: PhD, Computer Science, EPFL, Lausanne. Advisor: Tanja Käser. Thesis: Personalizing Learning and Empowering Educators through Multi-Dimensional Clustering, Teacher Dashboards, and AI-Hybrid Learning Systems.
+- 2020: MSc, Data Science, ITAM, Mexico City. Thesis advisors: Enrique Seira, Mauricio Romero. XXVI Research Award Ex-ITAM.
+- 2019: BSc, Computer Engineering, ITAM, Mexico City. Thesis advisor: Salvador Marmol. Flecha al aire Award 2019.
 
 ## Awards
-- 2025 — Innosuisse grant: for research development of adaptive learning systems (Scholé)
-- 2024 — Tools Competition winner: Building an Adaptive and Competitive Workforce (Scholé)
-- 2024 — Best Paper Award: ECTEL — AI or Human? Evaluating Student Feedback Perceptions
-- 2024 — Best Late-Breaking Results Award: AIED — Interpret3C
-- 2022 — EPFL IC Distinguished Service Award: as Vice-President of the IC PhD Association
-- 2022 — EDIC Fellowship: EPFL doctoral programme in Computer and Communication Sciences
-- 2021 — XXVI Research Award Ex-ITAM: first place, computer engineering
-- 2020 — ANFEI Academic Excellence Award: National Association of Faculties and Schools of Engineering
-- 2019 — Flecha al aire Award: best undergraduate thesis related to education
+- 2025: Innosuisse grant. for research development of adaptive learning systems (Scholé)
+- 2024: Tools Competition winner. Building an Adaptive and Competitive Workforce (Scholé)
+- 2024: Best Paper Award. ECTEL: AI or Human? Evaluating Student Feedback Perceptions
+- 2024: Best Late-Breaking Results Award. AIED: Interpret3C
+- 2022: EPFL IC Distinguished Service Award. as Vice-President of the IC PhD Association
+- 2022: EDIC Fellowship. EPFL doctoral programme in Computer and Communication Sciences
+- 2021: XXVI Research Award Ex-ITAM. first place, computer engineering
+- 2020: ANFEI Academic Excellence Award. National Association of Faculties and Schools of Engineering
+- 2019: Flecha al aire Award. best undergraduate thesis related to education
 
 ## Teaching
-- CS-421 Machine Learning for Behavioral Data — EPFL, Spring 2021–2025. Helped Tanja Käser build this master's course from scratch; designed tutorials, labs, homework and project assignments on real data, and supervised semester-long student projects.
-- CS-401 Applied Data Analysis — EPFL, Autumn 2021. Guided students through a semester-long analysis project ending in a data story.
-- CS-101 Advanced Information, Computation, Communication I — EPFL, Autumn 2022, 2023. Led a team of ten teaching assistants running weekly tutorials and quizzes.
-- Mathematics Weekend School — ITAM Construye (NPO), Mexico City, 2016–2019. Founded and ran a weekend maths programme for underprivileged children aged 6–14, leading ~24 volunteers teaching 160 students.
+- CS-421 Machine Learning for Behavioral Data, EPFL, Spring 2021–2025. Helped Tanja Käser build this master's course from scratch; designed tutorials, labs, homework and project assignments on real data, and supervised semester-long student projects.
+- CS-401 Applied Data Analysis, EPFL, Autumn 2021. Guided students through a semester-long analysis project ending in a data story.
+- CS-101 Advanced Information, Computation, Communication I, EPFL, Autumn 2022, 2023. Led a team of ten teaching assistants running weekly tutorials and quizzes.
+- Mathematics Weekend School, ITAM Construye (NPO), Mexico City, 2016–2019. Founded and ran a weekend maths programme for underprivileged children aged 6–14, leading ~24 volunteers teaching 160 students.
 
 ## Students supervised (20)
-- 2026 — Aaron Dinesh, "SEAL: Secure and Efficient Aggregation for Personalized Learning" (Semester Project). Now: MSc Computational Science & Engineering, EPFL · ML intern at Logitech
-- 2026 — Maxime Ducourau, "ContextaViz: The Effect of Contextualization and Progressive Hints on Visualization Literacy" (Semester Project). Now: MSc Data Science, EPFL · master’s project at RTE
-- 2025 — Adrien Vauthey, "Creation and Evaluation of Knowledge Graph with Human in the Loop" (Semester Thesis). Now: Data scientist & analyst
-- 2025 — Yannis Laaroussi, "RAG with Knowledge Graphs for Context-Aware Content Creation" (Semester Project). Now: Data scientist at 4K-MEMS
-- 2025 — Othmane Idrissi Oudghiri, "Personalized Knowledge Graph Paths" (Semester Project). Now: Quant researcher & data scientist at CF Tradition
-- 2025 — Yasmin Ben Rahhal, "Knowledge Tracing with LLMs to Extract Student History in ITS" (Semester Project). Now: Informatics engineer, MSc Computer Science, EPFL
-- 2024 — Aybars Yazici, "Exploring the Effect of Generative AI in Example-Based Learning" (Semester Project). Now: AIOps & ML engineer at Cisco
-- 2024 — Matea Tashkovska, "Adaptive Reflection Assistance with Memory" (Semester Project). Now: PhD student at EPFL
-- 2024 — Amaury George, "Learning by Explaining: Results of a Longitudinal Large-Scale Classroom Study" (Semester Project). Now: Quantitative researcher at Squarepoint
-- 2024 — Ali Ridha Mrad, "Analysis of Large-Scale Study on Personalized SRL Messages in Online Learning Platform" (Summer Intern). Now: MSc Data Science, EPFL · AI engineer intern at Nexthink
-- 2023 — Aybars Yazici, "Investigating the Effectiveness of AI-Generated Examples for Learning" (Semester Project). Now: AIOps & ML engineer at Cisco
-- 2023 — Amine Atallah, "Clustering Multi-Variate Time Series and Transition Probabilities" (Semester Project). Now: Security engineer & consultant
-- 2023 — Shashwat Gupta, "Active Learning for Text Classification" (Semester Project). Now: CS at UIUC · Microsoft Research
-- 2023 — Isadora Salles, "Intrinsically Interpretable Clustering for Students in MOOCs" (Summer Intern). Now: Data scientist at Kunumi
-- 2022 — Ghali Chraïbi, "Analysis of SRL Behavior in Large-Scale Study with Lernnavi" (Summer Intern). Now: Data scientist at the Swiss Data Science Center
-- 2022 — Eva Laini, "Analyzing and Visualizing Student Behavior in Flipped Classrooms" (Master Thesis)
-- 2022 — Gioele Monopoli, "Multi-Class Prediction of Learning Journal Competencies" (Semester Project). Now: AI lead · previously Huawei, DLR
-- 2022 — Luca Mouchel, "Analyzing Revision Behavior in Recipe Writing" (Semester Project). Now: AI research at MIT
-- 2021 — Nataša Krčo, "Exploring Self-Regulated Learning (SRL) Behavior in Language and Math Learning" (Semester Project). Now: PhD student at Imperial College London
-- 2021 — Gonxhe Idrizi, "NLP Analysis of Learning and Performance Documentation Entries of Chef Apprentices" (Semester Project). Now: IT data scientist at Procter & Gamble, Geneva
+- 2026: Aaron Dinesh, "SEAL: Secure and Efficient Aggregation for Personalized Learning" (Semester Project). Now: MSc Computational Science & Engineering, EPFL · ML intern at Logitech
+- 2026: Maxime Ducourau, "ContextaViz: The Effect of Contextualization and Progressive Hints on Visualization Literacy" (Semester Project). Now: MSc Data Science, EPFL · master’s project at RTE
+- 2025: Adrien Vauthey, "Creation and Evaluation of Knowledge Graph with Human in the Loop" (Semester Thesis). Now: Data scientist & analyst
+- 2025: Yannis Laaroussi, "RAG with Knowledge Graphs for Context-Aware Content Creation" (Semester Project). Now: Data scientist at 4K-MEMS
+- 2025: Othmane Idrissi Oudghiri, "Personalized Knowledge Graph Paths" (Semester Project). Now: Quant researcher & data scientist at CF Tradition
+- 2025: Yasmin Ben Rahhal, "Knowledge Tracing with LLMs to Extract Student History in ITS" (Semester Project). Now: Informatics engineer, MSc Computer Science, EPFL
+- 2024: Aybars Yazici, "Exploring the Effect of Generative AI in Example-Based Learning" (Semester Project). Now: AIOps & ML engineer at Cisco
+- 2024: Matea Tashkovska, "Adaptive Reflection Assistance with Memory" (Semester Project). Now: PhD student at EPFL
+- 2024: Amaury George, "Learning by Explaining: Results of a Longitudinal Large-Scale Classroom Study" (Semester Project). Now: Quantitative researcher at Squarepoint
+- 2024: Ali Ridha Mrad, "Analysis of Large-Scale Study on Personalized SRL Messages in Online Learning Platform" (Summer Intern). Now: MSc Data Science, EPFL · AI engineer intern at Nexthink
+- 2023: Aybars Yazici, "Investigating the Effectiveness of AI-Generated Examples for Learning" (Semester Project). Now: AIOps & ML engineer at Cisco
+- 2023: Amine Atallah, "Clustering Multi-Variate Time Series and Transition Probabilities" (Semester Project). Now: Security engineer & consultant
+- 2023: Shashwat Gupta, "Active Learning for Text Classification" (Semester Project). Now: CS at UIUC · Microsoft Research
+- 2023: Isadora Salles, "Intrinsically Interpretable Clustering for Students in MOOCs" (Summer Intern). Now: Data scientist at Kunumi
+- 2022: Ghali Chraïbi, "Analysis of SRL Behavior in Large-Scale Study with Lernnavi" (Summer Intern). Now: Data scientist at the Swiss Data Science Center
+- 2022: Eva Laini, "Analyzing and Visualizing Student Behavior in Flipped Classrooms" (Master Thesis)
+- 2022: Gioele Monopoli, "Multi-Class Prediction of Learning Journal Competencies" (Semester Project). Now: AI lead · previously Huawei, DLR
+- 2022: Luca Mouchel, "Analyzing Revision Behavior in Recipe Writing" (Semester Project). Now: AI research at MIT
+- 2021: Nataša Krčo, "Exploring Self-Regulated Learning (SRL) Behavior in Language and Math Learning" (Semester Project). Now: PhD student at Imperial College London
+- 2021: Gonxhe Idrizi, "NLP Analysis of Learning and Performance Documentation Entries of Chef Apprentices" (Semester Project). Now: IT data scientist at Procter & Gamble, Geneva
 
 ## Invited talks
-- 2026 — EPFL Engineering Industry Day (Lausanne)
-- 2025 — AIED — Enhancing Procedural Writing through Personalized Example Retrieval (Palermo)
-- 2025 — CHI — Data storytelling and task complexity (Yokohama)
-- 2025 — LAK — Multimodal analytics dashboards for team teaching (Dublin)
-- 2024 — CHI — Generative AI for example-based learning in recipe writing (Honolulu)
-- 2024 — CoLAM seminar — Understanding students' online behaviour (Melbourne)
-- 2023 — ECML-PKDD tutorial — Responsible AI (Turin)
-- 2023 — AIED — Teacher dashboards for visualising SRL profiles (Tokyo)
-- 2023 — Swiss VET Conference — Writing assistance for chef apprentices (Winterthur)
-- 2022 — AIED — Multi-dimensional clustering in flipped classrooms (Durham)
-- 2021 — Swiss VET Conference — Chef apprentices' learning documentation (Lugano)
+- 2026: EPFL Engineering Industry Day (Lausanne)
+- 2025: AIED: Enhancing Procedural Writing through Personalized Example Retrieval (Palermo)
+- 2025: CHI: Data storytelling and task complexity (Yokohama)
+- 2025: LAK: Multimodal analytics dashboards for team teaching (Dublin)
+- 2024: CHI: Generative AI for example-based learning in recipe writing (Honolulu)
+- 2024: CoLAM seminar: Understanding students' online behaviour (Melbourne)
+- 2023: ECML-PKDD tutorial: Responsible AI (Turin)
+- 2023: AIED: Teacher dashboards for visualising SRL profiles (Tokyo)
+- 2023: Swiss VET Conference: Writing assistance for chef apprentices (Winterthur)
+- 2022: AIED: Multi-dimensional clustering in flipped classrooms (Durham)
+- 2021: Swiss VET Conference: Chef apprentices' learning documentation (Lugano)
 
 ## Media
-- EPFL: “We should always have a human approach to AI” — https://actu.epfl.ch/news/we-should-always-have-a-human-approach-to-ai/ (Profile of the first two graduating PhDs of EPFL’s ML4ED lab.)
-- Startupticker: Scholé AI raises $3M to transform workforce learning — https://www.startupticker.ch/en/news/schole-ai-raises-3m-to-transform-workforce-learning (Swiss startup press on the seed round led by ACE Ventures, January 2026.)
-- GGBa: Scholé AI raises USD 3 million to scale its AI-native workforce learning platform — https://ggba.swiss/en/schole-ai-raises-usd-3-million-to-scale-its-ai-native-workforce-learning-platform/ (Greater Geneva Bern area investment agency.)
-- PR Newswire: Scholé AI raises $3M to transform workforce learning in the age of AI — https://www.prnewswire.com/news-releases/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai-302671763.html (The funding announcement, 28 January 2026.)
-- HRTech Edge: Scholé AI raises $3M to scale adaptive enterprise learning — https://hrtechedge.com/schole-ai-raises-3m-to-bring-adaptive-ai-native-learning-to-enterprises/ (HR technology trade press.)
-- ACE Ventures: Why we invested in Scholé AI — https://aceventures.vc/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai/ (The lead investor’s announcement.)
-- FinSMEs: Scholé AI raises $3M in funding — https://www.finsmes.com/2026/01/schole-ai-raises-3m-in-funding.html
-- The SaaS News: Scholé AI raises $3 million in funding — https://www.thesaasnews.com/news/schol-ai-raises-3-million-in-funding
-- Tools Competition: Scholé — winner, Building an Adaptive and Competitive Workforce — https://tools-competition.org/winner/schole/ (2024 competition award page.)
-- EPFL Memento: Scholé: a new vision for AI learning — https://memento.epfl.ch/event/schole-a-new-vision-for-ai-learning/
-- Product Hunt: Scholé — turn everyday work into personalised AI learning — https://www.producthunt.com/products/schole-2
-- Le Figaro: Learning in the age of AI — Regards de Dirigeants — https://schole.ai/engineering-blog/le-figaro-interview (Interview with co-founder Vinitra Swamy.)
-- AI Plaza: Learning starts from who you actually are — https://schole.ai/engineering-blog/ai-plaza-feature (Founder interview.)
-- Scholé Engineering Blog: The Trap Inside the Instant Answer — https://schole.ai/engineering-blog/trap-inside-the-instant-answer (If the goal is learning, “did the user get the answer?” is a bad metric.)
-- Scholé Engineering Blog: Escaping the Average — https://schole.ai/engineering-blog/escaping-the-average (Why generative AI can lift the creative floor while lowering the collective ceiling.)
-- Scholé Engineering Blog: Learning Journey as a GPS — https://schole.ai/engineering-blog/learning-journey (A personalised, revisable route that keeps the learner driving.)
+- EPFL: “We should always have a human approach to AI”, https://actu.epfl.ch/news/we-should-always-have-a-human-approach-to-ai/ (Profile of the first two graduating PhDs of EPFL’s ML4ED lab.)
+- Startupticker: Scholé AI raises $3M to transform workforce learning, https://www.startupticker.ch/en/news/schole-ai-raises-3m-to-transform-workforce-learning (Swiss startup press on the seed round led by ACE Ventures, January 2026.)
+- GGBa: Scholé AI raises USD 3 million to scale its AI-native workforce learning platform, https://ggba.swiss/en/schole-ai-raises-usd-3-million-to-scale-its-ai-native-workforce-learning-platform/ (Greater Geneva Bern area investment agency.)
+- PR Newswire: Scholé AI raises $3M to transform workforce learning in the age of AI, https://www.prnewswire.com/news-releases/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai-302671763.html (The funding announcement, 28 January 2026.)
+- HRTech Edge: Scholé AI raises $3M to scale adaptive enterprise learning, https://hrtechedge.com/schole-ai-raises-3m-to-bring-adaptive-ai-native-learning-to-enterprises/ (HR technology trade press.)
+- ACE Ventures: Why we invested in Scholé AI, https://aceventures.vc/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai/ (The lead investor’s announcement.)
+- FinSMEs: Scholé AI raises $3M in funding, https://www.finsmes.com/2026/01/schole-ai-raises-3m-in-funding.html
+- The SaaS News: Scholé AI raises $3 million in funding, https://www.thesaasnews.com/news/schol-ai-raises-3-million-in-funding
+- Tools Competition: Scholé — winner, Building an Adaptive and Competitive Workforce, https://tools-competition.org/winner/schole/ (2024 competition award page.)
+- EPFL Memento: Scholé: a new vision for AI learning, https://memento.epfl.ch/event/schole-a-new-vision-for-ai-learning/
+- Product Hunt: Scholé — turn everyday work into personalised AI learning, https://www.producthunt.com/products/schole-2
+- Le Figaro: Learning in the age of AI — Regards de Dirigeants, https://schole.ai/engineering-blog/le-figaro-interview (Interview with co-founder Vinitra Swamy.)
+- AI Plaza: Learning starts from who you actually are, https://schole.ai/engineering-blog/ai-plaza-feature (Founder interview.)
+- Scholé Engineering Blog: The Trap Inside the Instant Answer, https://schole.ai/engineering-blog/trap-inside-the-instant-answer (If the goal is learning, “did the user get the answer?” is a bad metric.)
+- Scholé Engineering Blog: Escaping the Average, https://schole.ai/engineering-blog/escaping-the-average (Why generative AI can lift the creative floor while lowering the collective ceiling.)
+- Scholé Engineering Blog: Learning Journey as a GPS, https://schole.ai/engineering-blog/learning-journey (A personalised, revisable route that keeps the learner driving.)
 

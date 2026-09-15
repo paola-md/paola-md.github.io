@@ -15,4 +15,4 @@ In recent decades, we have witnessed the democratization of AI-powered Education
 - HTML: https://paola-md.github.io/papers/the-critical-role-of-trust-in-adopting-ai-powered-educational-technology.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

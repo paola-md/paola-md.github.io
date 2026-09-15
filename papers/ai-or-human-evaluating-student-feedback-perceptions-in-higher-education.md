@@ -14,4 +14,4 @@ Feedback plays a crucial role in learning by helping individuals understand and 
 - HTML: https://paola-md.github.io/papers/ai-or-human-evaluating-student-feedback-perceptions-in-higher-education.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

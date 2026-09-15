@@ -15,4 +15,4 @@ Self-regulated learning (SRL) has been extensively studied using self-reported m
 - HTML: https://paola-md.github.io/papers/navigating-self-regulated-learning-dimensions-exploring-interactions-acr.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/

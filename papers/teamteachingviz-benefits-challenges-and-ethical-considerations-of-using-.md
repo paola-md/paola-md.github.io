@@ -16,4 +16,4 @@ Team teaching in higher education can be challenging, especially for educators m
 - HTML: https://paola-md.github.io/papers/teamteachingviz-benefits-challenges-and-ethical-considerations-of-using-.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain — https://paola-md.github.io/
+Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/
