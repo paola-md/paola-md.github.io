@@ -2,15 +2,14 @@
    Brand tokens lifted verbatim from Scholé's brand.css so this page
    reads as part of the same system. */
 
-@font-face { font-family:'New Spirit'; font-style:normal; font-weight:400; font-display:swap;
-  src:url('fonts/NewSpirit-Regular.woff2') format('woff2'); }
-@font-face { font-family:'New Spirit'; font-style:normal; font-weight:500; font-display:swap;
-  src:url('fonts/NewSpirit-Medium.woff2') format('woff2'); }
-@font-face { font-family:'New Spirit'; font-style:normal; font-weight:600; font-display:swap;
-  src:url('fonts/NewSpirit-SemiBold.woff2') format('woff2'); }
+/* Fraunces — SIL Open Font License 1.1, see fonts/OFL-Fraunces.txt.
+   One variable file covers 300-700; opsz/SOFT/WONK are pinned at build time. */
+@font-face { font-family:'Fraunces'; font-style:normal; font-weight:300 700; font-display:swap;
+  src:url('fonts/Fraunces-var.woff2') format('woff2-variations'),
+      url('fonts/Fraunces-var.woff2') format('woff2'); }
 
 :root{
-  --ns:'New Spirit', Georgia, 'Times New Roman', serif;
+  --ns:'Fraunces', Georgia, 'Times New Roman', serif;
   --sans:'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', system-ui, sans-serif;
 
   --subtle:#f8fafc; --lightest:#f1f5f9; --lighter:#e2e8f0;
@@ -590,6 +589,10 @@ pre.bib{
 }
 .board svg.wb{width:100%;height:auto;display:block}
 
+/* the overview board leads the carousel: one full-width board, no text column */
+.slide-cover{grid-template-columns:minmax(0,1fr);padding:18px}
+.slide-cover .board{box-shadow:0 14px 40px -26px var(--shadow)}
+
 .slide-txt{min-width:0;position:relative;z-index:1}
 .slide .q-head{
   font-family:var(--sans);font-size:14px;font-weight:600;line-height:1.4;
@@ -612,6 +615,9 @@ pre.bib{
   transition:background-size .28s var(--ease),color .18s var(--ease)}
 .slide .prov a:hover{background-size:100% 1px;color:var(--accent-slide)}
 .slide .prov .vn{color:var(--label)}
+
+.dots a svg{display:block}
+.dots a[aria-label="Overview"]{display:inline-flex;align-items:center;justify-content:center}
 
 .crl-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .crl-btn{
