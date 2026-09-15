@@ -261,10 +261,10 @@ Learning journals are increasingly used in vocational education to foster self-r
 - ACE Ventures: Why we invested in Scholé AI, https://aceventures.vc/schole-ai-raises-3m-to-transform-workforce-learning-in-the-age-of-ai/ (The lead investor’s announcement.)
 - FinSMEs: Scholé AI raises $3M in funding, https://www.finsmes.com/2026/01/schole-ai-raises-3m-in-funding.html
 - The SaaS News: Scholé AI raises $3 million in funding, https://www.thesaasnews.com/news/schol-ai-raises-3-million-in-funding
-- Tools Competition: Scholé — winner, Building an Adaptive and Competitive Workforce, https://tools-competition.org/winner/schole/ (2024 competition award page.)
+- Tools Competition: Scholé: winner, Building an Adaptive and Competitive Workforce, https://tools-competition.org/winner/schole/ (2024 competition award page.)
 - EPFL Memento: Scholé: a new vision for AI learning, https://memento.epfl.ch/event/schole-a-new-vision-for-ai-learning/
-- Product Hunt: Scholé — turn everyday work into personalised AI learning, https://www.producthunt.com/products/schole-2
-- Le Figaro: Learning in the age of AI — Regards de Dirigeants, https://schole.ai/engineering-blog/le-figaro-interview (Interview with co-founder Vinitra Swamy.)
+- Product Hunt: Scholé: turn everyday work into personalised AI learning, https://www.producthunt.com/products/schole-2
+- Le Figaro: Learning in the age of AI, Regards de Dirigeants, https://schole.ai/engineering-blog/le-figaro-interview (Interview with co-founder Vinitra Swamy.)
 - AI Plaza: Learning starts from who you actually are, https://schole.ai/engineering-blog/ai-plaza-feature (Founder interview.)
 - Scholé Engineering Blog: The Trap Inside the Instant Answer, https://schole.ai/engineering-blog/trap-inside-the-instant-answer (If the goal is learning, “did the user get the answer?” is a bad metric.)
 - Scholé Engineering Blog: Escaping the Average, https://schole.ai/engineering-blog/escaping-the-average (Why generative AI can lift the creative floor while lowering the collective ceiling.)
