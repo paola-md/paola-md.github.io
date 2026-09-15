@@ -662,6 +662,29 @@ pre.bib{
 }
 @media (prefers-reduced-motion: reduce){ .carousel{scroll-behavior:auto} }
 
+
+
+/* ---------- teaser board ---------- */
+.teaserfig{
+  margin:0 0 30px;background:#fdfdfb;
+  border:1px solid var(--rule);border-radius:16px;overflow:hidden;
+  box-shadow:0 14px 40px -28px var(--shadow);
+}
+.teaserfig svg.teaser{width:100%;height:auto;display:block}
+.teaserfig figcaption{
+  font-size:13.2px;line-height:1.5;color:var(--ink-faint);
+  padding:11px 16px;border-top:1px solid var(--rule);background:var(--subtle);
+}
+.teaserfig figcaption a{color:var(--link)}
+
+
+
+@media (max-width:820px){
+  /* a 1320-wide board squeezed to phone width is unreadable; let it scroll instead */
+  .teaserfig{overflow-x:auto;scrollbar-width:thin}
+  .teaserfig svg.teaser{min-width:660px}
+}
+
 /* === generated: explicit theme override — do not edit between the fences === */
 :root[data-theme="dark"]{
    /* inverted neutral ramp */
