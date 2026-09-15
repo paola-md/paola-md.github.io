@@ -543,8 +543,6 @@ pre.bib{
 /* ============================================================
    Findings carousel — whiteboard slides, scroll-snap
    ============================================================ */
-@font-face{font-family:'Caveat';font-style:normal;font-weight:600;font-display:swap;
-  src:url('fonts/Caveat-600.woff2') format('woff2');}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
   clip:rect(0 0 0 0);white-space:nowrap;border:0}
@@ -584,7 +582,7 @@ pre.bib{
 }
 
 .board{
-  background:#fdfdfb;border:1px solid var(--rule);border-radius:14px;
+  background:#ffffff;border:1px solid var(--rule);border-radius:14px;
   overflow:hidden;line-height:0;box-shadow:0 10px 30px -22px var(--shadow);
 }
 .board svg.wb{width:100%;height:auto;display:block}
