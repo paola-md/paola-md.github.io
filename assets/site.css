@@ -397,6 +397,11 @@ figure.paperfig figcaption{font-size:13px;line-height:1.5;color:var(--ink-faint)
    background:var(--panel-solid); color:var(--ink-faint);
    border-top-color:rgba(255,255,255,.12);
  }
+ /* slide accents are calibrated for the white board; lift them for the dark card */
+ :root:not([data-theme="light"]) .slide{
+   --accent-ui:color-mix(in srgb, var(--accent-slide) 48%, #ffffff);
+ }
+ :root:not([data-theme="light"]) .ghost{opacity:.16}
  /* the mark is dark-on-transparent; lift it so it reads */
  :root:not([data-theme="light"]) .mark{ filter:invert(1) brightness(1.7); opacity:.6 }
  /* links inside prose need a touch more weight on dark */
@@ -534,8 +539,10 @@ pre.bib{
   -webkit-text-size-adjust:100%;
 }
 
+/* findings carousel v1 superseded */
+
 /* ============================================================
-   Findings carousel — whiteboard slides, CSS scroll-snap, no JS
+   Findings carousel — whiteboard slides, scroll-snap
    ============================================================ */
 @font-face{font-family:'Caveat';font-style:normal;font-weight:600;font-display:swap;
   src:url('fonts/Caveat-600.woff2') format('woff2');}
@@ -547,54 +554,176 @@ pre.bib{
   overflow-x:auto;overflow-y:hidden;
   scroll-snap-type:x mandatory;
   -webkit-overflow-scrolling:touch;
-  scrollbar-width:thin;
-  border-radius:16px;
-  margin:0 0 14px;
+  padding:2px 2px 16px;margin:0 -2px 6px;
+  scrollbar-width:none;
 }
-.track{display:flex;list-style:none;padding:0;margin:0;gap:18px}
+.carousel::-webkit-scrollbar{display:none}
+.track{display:flex;list-style:none;padding:0;margin:0;gap:20px}
+
 .slide{
-  flex:0 0 100%;scroll-snap-align:center;scroll-snap-stop:always;
-  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
-  gap:26px;align-items:center;
-  background:var(--panel);border:1px solid var(--rule);border-radius:16px;
-  padding:20px;
+  position:relative;
+  flex:0 0 clamp(260px, calc(100% - 46px), 100%);   /* a sliver of the next card peeks */
+  scroll-snap-align:center;scroll-snap-stop:always;
+  display:grid;grid-template-columns:minmax(0,1.22fr) minmax(0,1fr);
+  gap:28px;align-items:center;
+  background:var(--panel);
+  border:1px solid var(--rule);border-radius:18px;
+  padding:22px 24px;overflow:hidden;
+  transition:border-color .25s var(--ease);
 }
+.slide::before{
+  content:"";position:absolute;inset:0 0 auto 0;height:3px;
+  background:linear-gradient(90deg, var(--accent-slide), transparent 78%);opacity:.85;
+}
+.slide:hover{border-color:color-mix(in srgb, var(--accent-slide) 38%, var(--rule))}
+
+.ghost{
+  position:absolute;right:16px;top:4px;
+  font-family:var(--ns);font-size:62px;font-weight:500;line-height:1;
+  color:var(--accent-slide);opacity:.10;pointer-events:none;
+  font-variant-numeric:tabular-nums;
+}
+
 .board{
-  background:#fdfdfb;border:1px solid var(--rule);border-radius:12px;
-  overflow:hidden;line-height:0;
+  background:#fdfdfb;border:1px solid var(--rule);border-radius:14px;
+  overflow:hidden;line-height:0;box-shadow:0 10px 30px -22px var(--shadow);
 }
 .board svg.wb{width:100%;height:auto;display:block}
-.slide-txt{min-width:0}
+
+.slide-txt{min-width:0;position:relative;z-index:1}
 .slide .q-head{
-  font-family:var(--sans);font-size:14.5px;font-weight:600;line-height:1.4;
-  color:var(--accent-text);margin:0 0 10px;letter-spacing:-.005em;
+  font-family:var(--sans);font-size:14px;font-weight:600;line-height:1.4;
+  /* --accent-slide is tuned against the white board; --accent-ui is the
+     same hue adjusted for whichever card it actually sits on */
+  color:var(--accent-ui, var(--accent-slide));margin:0 0 11px;letter-spacing:-.004em;
 }
+.slide{--accent-ui:var(--accent-slide)}
+.slide .prov a{color:var(--ink-soft)}
+.slide .prov a:hover{color:var(--accent-ui)}
 .slide .claim{
-  font-family:var(--ns);font-weight:400;font-size:clamp(18px,2.1vw,22px);
-  line-height:1.42;color:var(--ink);margin:0 0 12px;
+  font-family:var(--ns);font-weight:400;font-size:clamp(19px,2.2vw,24px);
+  line-height:1.38;color:var(--ink);margin:0 0 14px;
 }
-.slide .prov{font-size:13.4px;line-height:1.5;margin:0;color:var(--ink-faint)}
+.slide .prov{font-size:13.2px;line-height:1.5;margin:0;color:var(--ink-faint);
+  padding-top:11px;border-top:1px solid var(--rule)}
 .slide .prov a{color:var(--ink-soft);text-decoration:none;
-  background-image:linear-gradient(var(--solid),var(--solid));background-size:0% 1px;
-  background-repeat:no-repeat;background-position:0 100%;transition:background-size .28s var(--ease)}
-.slide .prov a:hover{background-size:100% 1px;color:var(--link)}
+  background-image:linear-gradient(var(--accent-slide),var(--accent-slide));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .28s var(--ease),color .18s var(--ease)}
+.slide .prov a:hover{background-size:100% 1px;color:var(--accent-slide)}
 .slide .prov .vn{color:var(--label)}
 
-.dots{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.crl-foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.crl-btn{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;
+  width:32px;height:32px;padding:0;cursor:pointer;background:transparent;
+  color:var(--ink-faint);border:1px solid var(--rule);border-radius:9px;
+  transition:border-color .18s var(--ease),color .18s var(--ease),background .18s var(--ease);
+}
+.crl-btn:hover:not(:disabled){border-color:var(--ring);color:var(--link);background:var(--ring-soft)}
+.crl-btn:disabled{opacity:.34;cursor:default}
+
+.dots{display:flex;gap:5px;align-items:center;flex:1 1 auto;flex-wrap:wrap;
+  list-style:none;padding:0;margin:0}
 .dots a{
   display:inline-flex;align-items:center;justify-content:center;
-  min-width:28px;min-height:28px;padding:0 6px;
-  font-size:12.5px;font-weight:600;font-variant-numeric:tabular-nums;
-  color:var(--ink-faint);text-decoration:none;
-  border:1px solid var(--rule);border-radius:8px;
-  transition:border-color .18s var(--ease),color .18s var(--ease);
+  min-width:26px;min-height:26px;padding:0 4px;
+  font-size:0;color:transparent;text-decoration:none;border-radius:6px;
 }
-.dots a:hover{border-color:var(--ring);color:var(--link)}
-.slide:target{outline:none}
+.dots a::after{
+  content:"";display:block;width:100%;height:4px;border-radius:3px;
+  background:var(--rule);transition:background .2s var(--ease),transform .2s var(--ease);
+}
+.dots a:hover::after{background:var(--ring)}
+.dots a[aria-current="true"]::after{background:var(--accent-text);transform:scaleY(1.6)}
+.dots a:focus-visible{outline-offset:1px}
+
+/* ---------- theme toggle ---------- */
+.themebtn{
+  flex:none;margin-left:10px;display:inline-flex;align-items:center;justify-content:center;
+  width:34px;height:34px;padding:0;background:transparent;color:var(--ink-faint);
+  border:1px solid var(--rule);border-radius:9px;cursor:pointer;
+  transition:border-color .18s var(--ease),color .18s var(--ease),background .18s var(--ease);
+}
+.themebtn:hover{border-color:var(--ring);color:var(--link);background:var(--ring-soft)}
+.themebtn .ico-moon{display:none}
+:root[data-theme="dark"] .themebtn .ico-sun{display:none}
+:root[data-theme="dark"] .themebtn .ico-moon{display:inline}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .themebtn .ico-sun{display:none}
+  :root:not([data-theme="light"]) .themebtn .ico-moon{display:inline}
+}
 
 @media (max-width:760px){
-  .slide{grid-template-columns:1fr;gap:16px;padding:14px}
-  .slide .claim{font-size:18px}
+  .slide{grid-template-columns:1fr;gap:16px;padding:16px;
+         flex-basis:clamp(240px, calc(100% - 28px), 100%)}
+  .ghost{font-size:44px;right:12px}
+  .slide .claim{font-size:19px}
 }
-/* the carousel scrolls; honour a reduced-motion preference for the jump */
 @media (prefers-reduced-motion: reduce){ .carousel{scroll-behavior:auto} }
+
+/* === generated: explicit theme override — do not edit between the fences === */
+:root[data-theme="dark"]{
+   /* inverted neutral ramp */
+   --subtle:#17141f; --lightest:rgba(255,255,255,.07); --lighter:rgba(255,255,255,.13);
+   --light:#807b90;  --medium:#9c97ac;  --dark:#c7c3d4;  --darkest:#eceaf4;
+
+   /* brand, lifted for contrast against a dark ground */
+   --grad-a:#b79ae6; --grad-mid:#9ea2e4; --grad-b:#8fb4ea;
+   --solid:#a8abe6;  --deep:#cfc8e2;     --amber:#f6c65a;
+
+   --rule:rgba(255,255,255,.11);
+
+   --bg-glow-a:rgba(126,94,190,.26);
+   --bg-glow-b:rgba(70,116,176,.22);
+   --bg-top:#100d18; --bg-mid:#13101c; --bg-bot:#0c0a12;
+
+   --panel:rgba(255,255,255,.045);
+   --panel-strong:rgba(255,255,255,.065);
+   --panel-solid:#171423;
+   --nav-bg:rgba(16,13,24,.86);
+   --ring:rgba(168,171,230,.55);
+   --ring-soft:rgba(168,171,230,.12);
+   --shadow:rgba(0,0,0,.72);
+   --chip-bg:rgba(183,154,230,.13); --chip-br:rgba(183,154,230,.26);
+   --photo-ring:rgba(255,255,255,.16);
+
+   /* figures stay on a light plate: they are light-background
+      scientific images and inverting them would be worse */
+   --plate:#fafaff;
+
+   --badge-oa-bg:rgba(52,211,153,.14);    --badge-oa-fg:#6ee7b7;
+   --badge-award-bg:rgba(246,198,90,.16); --badge-award-fg:#f6c65a;
+   --badge-first-bg:rgba(168,171,230,.18);--badge-first-fg:#bfc2f2;
+ }
+
+ /* a light plate needs a seam against the dark page, not a glow */
+ :root[data-theme="dark"] figure.paperfig,
+ :root[data-theme="dark"] .pub .thumb,
+ :root[data-theme="dark"] .syscard details img{
+   border-color:rgba(255,255,255,.16);
+ }
+ :root[data-theme="dark"] figure.paperfig figcaption{
+   background:var(--panel-solid); color:var(--ink-faint);
+   border-top-color:rgba(255,255,255,.12);
+ }
+ /* slide accents are calibrated for the white board; lift them for the dark card */
+ :root[data-theme="dark"] .slide{
+   --accent-ui:color-mix(in srgb, var(--accent-slide) 48%, #ffffff);
+ }
+ :root[data-theme="dark"] .ghost{opacity:.16}
+ /* the mark is dark-on-transparent; lift it so it reads */
+ :root[data-theme="dark"] .mark{ filter:invert(1) brightness(1.7); opacity:.6 }
+ /* links inside prose need a touch more weight on dark */
+ :root[data-theme="dark"] a{ text-decoration-color:rgba(158,162,228,.5) }
+ :root[data-theme="dark"] body{ -webkit-font-smoothing:antialiased }
+:root[data-theme="dark"]{
+   --focus:#c3c6ff; --focus-halo:rgba(0,0,0,.88);
+   --label:#9a95aa;          /* lifted from #807b90: 4.72 -> 6.4:1 */
+   --link:#a9ade9; --link-hover:#c3a9f0; --accent-text:#a8abe6;
+   --ink-faint:#9c97ac; --kd-text:#b4afc4;
+ }
+  :root[data-theme="dark"] .skip{ background:var(--panel-solid); color:var(--ink) }
+:root[data-theme="dark"] .themebtn .ico-sun{display:none}
+  :root[data-theme="dark"] .themebtn .ico-moon{display:inline}
+/* === end generated === */
