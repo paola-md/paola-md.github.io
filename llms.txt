@@ -5,7 +5,7 @@
 > what students actually do — self-regulated learning, multimodal learning analytics,
 > interpretable student models, and LLMs as tutors, feedback-givers and example generators.
 
-Canonical: https://paola-md.github.io/ · ORCID 0000-0003-1242-3134 · 23 publications · updated 2026-09-14
+Canonical: https://paola-md.github.io/ · ORCID 0000-0003-1242-3134 · 23 publications · updated 2026-09-15
 
 Also indexed as Paola Mejia, Paola Mejía-Domenzain, Paola Mejia Domenzain and
 P. Mejia-Domenzain — and, through a Unicode normalisation error in some databases,

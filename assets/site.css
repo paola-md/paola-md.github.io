@@ -475,31 +475,7 @@ a:focus-visible, summary:focus-visible{ outline-offset:3px }
 main#content:focus{ outline:none }          /* programmatic target, ring would be noise */
 main#content:focus-visible{ outline:3px solid var(--focus); outline-offset:-3px }
 
-/* ---------- findings ---------- */
-.findings{list-style:none;padding:0;margin:0;counter-reset:f}
-.findings li{
-  counter-increment:f;position:relative;
-  padding:18px 0 18px 46px;border-top:1px solid var(--rule);
-}
-.findings li:first-child{border-top:0}
-.findings li::before{
-  content:counter(f,decimal-leading-zero);
-  position:absolute;left:0;top:21px;
-  font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--label);
-  font-variant-numeric:tabular-nums;
-}
-.claim{
-  font-family:var(--ns);font-weight:400;
-  font-size:clamp(17px,2vw,20px);line-height:1.45;
-  color:var(--ink);margin:0 0 7px;max-width:66ch;
-}
-.prov{font-size:13.6px;line-height:1.5;margin:0;color:var(--ink-faint)}
-.prov a{color:var(--ink-soft);text-decoration:none;
-  background-image:linear-gradient(var(--solid),var(--solid));background-size:0% 1px;
-  background-repeat:no-repeat;background-position:0 100%;transition:background-size .28s var(--ease)}
-.prov a:hover{background-size:100% 1px;color:var(--link)}
-.prov .vn{color:var(--label)}
-@media (max-width:620px){ .findings li{padding-left:34px} }
+/* findings styles superseded by the carousel below */
 footer .wrap-wide{max-width:980px}
 .foot-machine a{color:var(--ink-soft)}
 footer p strong{color:var(--ink);font-weight:600}
@@ -519,3 +495,106 @@ footer p strong{color:var(--ink);font-weight:600}
   color:var(--accent-text);margin:0 0 8px;letter-spacing:-.005em;max-width:60ch;
 }
 .findings li{padding-top:22px;padding-bottom:22px}
+
+/* ---------- full abstracts behind native disclosure ---------- */
+.absd{margin:0 0 10px}
+.absd summary{
+  cursor:pointer;list-style:none;display:block;
+  font-size:15.2px;line-height:1.6;color:var(--ink-soft);max-width:72ch;
+}
+.absd summary::-webkit-details-marker{display:none}
+.abs-more{
+  display:inline-block;margin-left:6px;font-size:13px;font-weight:600;
+  color:var(--link);white-space:nowrap;
+}
+.abs-more::after{content:" \25B8";font-size:11px}
+.absd[open] .abs-lead{display:none}
+.absd[open] .abs-more{margin-left:0;margin-bottom:6px;display:block}
+.absd[open] .abs-more::after{content:" \25BE"}
+.absd[open] .abs-more::before{content:"Full abstract"}
+.absd[open] .abs-more{font-size:0}
+.absd[open] .abs-more::before,.absd[open] .abs-more::after{font-size:13px}
+.pub-abs-full{margin-top:4px}
+
+/* ---------- cite block ---------- */
+.cite{margin:34px 0 0;padding-top:24px;border-top:1px solid var(--rule)}
+.cite h2{font-family:var(--sans);font-size:12.5px;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--accent-text);margin:0 0 12px}
+.cite-prose{font-size:15px;line-height:1.6;color:var(--ink-soft);margin:0 0 12px;max-width:70ch}
+.bibd summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--link);
+  list-style:none;display:inline-flex;align-items:center;gap:5px;min-height:24px}
+.bibd summary::-webkit-details-marker{display:none}
+.bibd summary::after{content:"\25B8";font-size:11px;transition:transform .2s var(--ease)}
+.bibd[open] summary::after{transform:rotate(90deg)}
+pre.bib{
+  margin:10px 0 0;padding:14px 16px;overflow-x:auto;
+  background:var(--panel);border:1px solid var(--rule);border-radius:10px;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-size:12.6px;line-height:1.55;color:var(--ink-soft);
+  -webkit-text-size-adjust:100%;
+}
+
+/* ============================================================
+   Findings carousel — whiteboard slides, CSS scroll-snap, no JS
+   ============================================================ */
+@font-face{font-family:'Caveat';font-style:normal;font-weight:600;font-display:swap;
+  src:url('fonts/Caveat-600.woff2') format('woff2');}
+
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+.carousel{
+  overflow-x:auto;overflow-y:hidden;
+  scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:thin;
+  border-radius:16px;
+  margin:0 0 14px;
+}
+.track{display:flex;list-style:none;padding:0;margin:0;gap:18px}
+.slide{
+  flex:0 0 100%;scroll-snap-align:center;scroll-snap-stop:always;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+  gap:26px;align-items:center;
+  background:var(--panel);border:1px solid var(--rule);border-radius:16px;
+  padding:20px;
+}
+.board{
+  background:#fdfdfb;border:1px solid var(--rule);border-radius:12px;
+  overflow:hidden;line-height:0;
+}
+.board svg.wb{width:100%;height:auto;display:block}
+.slide-txt{min-width:0}
+.slide .q-head{
+  font-family:var(--sans);font-size:14.5px;font-weight:600;line-height:1.4;
+  color:var(--accent-text);margin:0 0 10px;letter-spacing:-.005em;
+}
+.slide .claim{
+  font-family:var(--ns);font-weight:400;font-size:clamp(18px,2.1vw,22px);
+  line-height:1.42;color:var(--ink);margin:0 0 12px;
+}
+.slide .prov{font-size:13.4px;line-height:1.5;margin:0;color:var(--ink-faint)}
+.slide .prov a{color:var(--ink-soft);text-decoration:none;
+  background-image:linear-gradient(var(--solid),var(--solid));background-size:0% 1px;
+  background-repeat:no-repeat;background-position:0 100%;transition:background-size .28s var(--ease)}
+.slide .prov a:hover{background-size:100% 1px;color:var(--link)}
+.slide .prov .vn{color:var(--label)}
+
+.dots{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.dots a{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-width:28px;min-height:28px;padding:0 6px;
+  font-size:12.5px;font-weight:600;font-variant-numeric:tabular-nums;
+  color:var(--ink-faint);text-decoration:none;
+  border:1px solid var(--rule);border-radius:8px;
+  transition:border-color .18s var(--ease),color .18s var(--ease);
+}
+.dots a:hover{border-color:var(--ring);color:var(--link)}
+.slide:target{outline:none}
+
+@media (max-width:760px){
+  .slide{grid-template-columns:1fr;gap:16px;padding:14px}
+  .slide .claim{font-size:18px}
+}
+/* the carousel scrolls; honour a reduced-motion preference for the jump */
+@media (prefers-reduced-motion: reduce){ .carousel{scroll-behavior:auto} }

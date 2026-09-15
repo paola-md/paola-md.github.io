@@ -1,6 +1,6 @@
 # Paola Mejia-Domenzain
 
-Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-09-14
+Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-09-15
 
 Co-Founder and CTO of Scholé AI, Lausanne. PhD in Computer Science from EPFL's
 Machine Learning for Education Laboratory (ML4ED), advised by Tanja Käser.

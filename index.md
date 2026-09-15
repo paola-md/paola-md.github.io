@@ -4,7 +4,7 @@ Co-Founder and CTO of Scholé AI. PhD in Computer Science, EPFL ML4ED (advisor T
 Machine learning for education: self-regulated learning, multimodal learning analytics,
 interpretable student models, LLMs as tutors and feedback-givers.
 
-ORCID 0000-0003-1242-3134 · https://paola-md.github.io/ · updated 2026-09-14
+ORCID 0000-0003-1242-3134 · https://paola-md.github.io/ · updated 2026-09-15
 
 ## Findings
 
