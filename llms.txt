@@ -5,7 +5,7 @@
 > what students actually do — self-regulated learning, multimodal learning analytics,
 > interpretable student models, and LLMs as tutors, feedback-givers and example generators.
 
-Canonical: https://paola-md.github.io/ · ORCID 0000-0003-1242-3134 · 23 publications · updated 2026-09-15
+Canonical: https://paola-md.github.io/ · ORCID 0000-0003-1242-3134 · updated 2026-09-15
 
 Also indexed as Paola Mejia, Paola Mejía-Domenzain, Paola Mejia Domenzain and
 P. Mejia-Domenzain — and, through a Unicode normalisation error in some databases,
@@ -31,7 +31,7 @@ Each line is a result stated in that paper's own abstract.
 - Multi-dimensional profiles held up across three different flipped-classroom courses, and the profiles differed significantly in academic performance. — [Identifying and Comparing Multi-dimensional Student Profiles Across Flipped Classrooms](https://paola-md.github.io/papers/identifying-and-comparing-multi-dimensional-student-profiles-across-flip.md), Lecture Notes in Computer Science 2022
 - Across 183 chef apprentices and more than 121,000 learning-journal entries, the method tracked how learning patterns changed over time and produced interpretable profiles. — [Evolutionary Clustering of Apprentices' Self-Regulated Learning Behavior in Learning Journals](https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-self-regulated-learning-behavior-.md), IEEE Transactions on Learning Technologies 2022
 
-## Publications (23)
+## Publications
 
 Each links to a clean Markdown version of that paper's page.
 
@@ -69,7 +69,7 @@ Each links to a clean Markdown version of that paper's page.
 
 ## Full content
 - [Everything on this site as plain text](https://paola-md.github.io/llms-full.txt)
-- [All 23 publications as BibTeX](https://paola-md.github.io/publications.bib)
+- [Every publication as BibTeX](https://paola-md.github.io/publications.bib)
 - [Publications as JSON, with abstracts](https://paola-md.github.io/publications.json)
 - [Sitemap](https://paola-md.github.io/sitemap.xml)
 

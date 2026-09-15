@@ -21,11 +21,11 @@ Some indexes store the surname with a U+2010 hyphen; that is the same person.
 - Scholé AI: https://schole.ai
 
 ## Machine-readable exports
-- BibTeX, all 23 publications: https://paola-md.github.io/publications.bib
+- BibTeX for every publication: https://paola-md.github.io/publications.bib
 - JSON index with abstracts: https://paola-md.github.io/publications.json
 - Sitemap: https://paola-md.github.io/sitemap.xml
 
-## Publications (23)
+## Publications
 
 ### AI-Driven Analytics of Team-Teaching Talk: Acoustic Patterns Across Experience, Cohorts and the Learning Design
 Yuchen Liu, Roberto Martínez-Maldonado, Riordan Alfredo, Paola Mejia-Domenzain, Dwi Rahayu, Sadia Nawaz

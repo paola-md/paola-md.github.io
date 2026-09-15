@@ -24,7 +24,7 @@ ORCID 0000-0003-1242-3134 · https://paola-md.github.io/ · updated 2026-09-15
 - Multi-dimensional profiles held up across three different flipped-classroom courses, and the profiles differed significantly in academic performance. ([Identifying and Comparing Multi-dimensional Student Profiles Across Flipped Classrooms](https://paola-md.github.io/papers/identifying-and-comparing-multi-dimensional-student-profiles-across-flip.md))
 - Across 183 chef apprentices and more than 121,000 learning-journal entries, the method tracked how learning patterns changed over time and produced interpretable profiles. ([Evolutionary Clustering of Apprentices' Self-Regulated Learning Behavior in Learning Journals](https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-self-regulated-learning-behavior-.md))
 
-## Publications (23)
+## Publications
 
 - **AI-Driven Analytics of Team-Teaching Talk: Acoustic Patterns Across Experience, Cohorts and the Learning Design** — Yuchen Liu, Roberto Martínez-Maldonado, Riordan Alfredo, Paola Mejia-Domenzain, et al.. Lecture Notes in Computer Science 2026. DOI 10.1007/978-3-032-29763-1_1. [Details](https://paola-md.github.io/papers/ai-driven-analytics-of-team-teaching-talk-acoustic-patterns-across-exper.md)
 - **Turning 500+ Students into Teachers: A Semester-Long Study of an AI Teachable Agent in an Undergraduate Algorithms Course** — Chenyang Wang, Christopher Petrie, Miltiadis Stouras, Nicolas Ettlin, et al.. ACM Conference on Learning @ Scale (L@S '26) 2026. DOI 10.1145/3774398.3811623. [Details](https://paola-md.github.io/papers/turning-500-students-into-teachers-a-semester-long-study-of-an-ai-teacha.md)
