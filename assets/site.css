@@ -701,7 +701,22 @@ pre.bib{
 /* ---------- free week form ---------- */
 .fw{display:grid;grid-template-columns:1fr 1.1fr;gap:34px;align-items:start}
 .fw-pitch p{font-size:15.2px;line-height:1.62;color:var(--ink-soft);max-width:52ch}
-.fw-direct{font-size:14.2px!important}
+.fw-brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;margin:4px 0 14px;
+  padding:7px 14px 7px 8px;border:1px solid var(--chip-br);background:var(--chip-bg);border-radius:999px}
+.fw-brand img{width:34px;height:34px;border-radius:9px;background:var(--plate);padding:3px}
+.fw-brand b{display:block;font-family:var(--ns);font-weight:600;font-size:16.5px;color:var(--ink);line-height:1.1}
+.fw-brand small{display:block;font-size:12px;color:var(--ink-faint)}
+.fw-brand:hover{border-color:var(--ring)}
+.fw-perks{list-style:none;padding:0;margin:16px 0 18px;display:grid;gap:11px}
+.fw-perks li{display:grid;grid-template-columns:34px 1fr;gap:11px;align-items:start;font-size:14.8px;line-height:1.5;color:var(--ink-soft)}
+.fw-perks b{color:var(--ink);font-weight:600}
+.fw-ic{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:var(--link);
+  background:var(--chip-bg);border:1px solid var(--chip-br)}
+.fw-ctas{display:flex;flex-wrap:wrap;gap:10px}
+.fw-btn{display:inline-block;text-decoration:none;font-weight:600;font-size:14.6px;padding:10px 16px;border-radius:11px;
+  color:#fff;background:linear-gradient(90deg,#6b4fb0,#4f56b4);transition:transform .15s var(--ease)}
+.fw-btn.fw-alt{color:var(--link);background:transparent;border:1px solid var(--chip-br)}
+.fw-btn:hover{transform:translateY(-1px)}
 .fw-card{background:var(--panel-strong);border:1px solid var(--rule);border-radius:16px;padding:22px 22px 18px;
   box-shadow:0 18px 44px -30px var(--shadow);position:relative;overflow:hidden}
 .fw-card::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;
@@ -730,7 +745,7 @@ pre.bib{
 .fw-done p{margin:0 0 4px}
 .fw-yay{font-weight:600;color:var(--badge-oa-fg)}
 @media (max-width:760px){ .fw{grid-template-columns:1fr;gap:18px} }
-@media (prefers-reduced-motion:reduce){ .chip:hover,.fw-dice:hover,.fw-go:hover{transform:none} }
+@media (prefers-reduced-motion:reduce){ .chip:hover,.fw-dice:hover,.fw-go:hover,.fw-btn:hover{transform:none} }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){ --fw-err:#ff9d94 }
 }
