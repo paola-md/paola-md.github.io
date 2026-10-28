@@ -200,8 +200,10 @@ Learning journals are increasingly used in vocational education to foster self-r
 - 2025: PhD, Computer Science, EPFL, Lausanne. Advisor: Tanja Käser. Thesis: Personalizing Learning and Empowering Educators through Multi-Dimensional Clustering, Teacher Dashboards, and AI-Hybrid Learning Systems.
 - 2020: MSc, Data Science, ITAM, Mexico City. Thesis advisors: Enrique Seira, Mauricio Romero. XXVI Research Award Ex-ITAM.
 - 2019: BSc, Computer Engineering, ITAM, Mexico City. Thesis advisor: Salvador Marmol. Flecha al aire Award 2019.
-- 2019: Summer School on Social Innovation and Financial Inclusion in the Digital Age, Georgetown University, McDonough School of Business, Washington DC. Designed an app for financial literacy; best final presentation award.
-- 2018: Summer School on Applied Data Science, with Raja Sooriamurthi, Carnegie Mellon University, Heinz College, Pittsburgh.
+- 2019: Innovation and Entrepreneurship Program, ITAM and Grupo BAL, Mexico City. Teamwork, leadership and communication; final project on technological enhancements for the mining sector, presented to Grupo BAL’s CEO.
+- 2019: Summer School on Social Innovation and Financial Inclusion in the Digital Age, Georgetown University, McDonough School of Business, Washington DC. Fully funded. Designed an app for financial literacy; best final presentation award.
+- 2018: Summer School on Applied Data Science, with Raja Sooriamurthi, Carnegie Mellon University, Heinz College, Pittsburgh. Project on household poverty prediction in Costa Rica.
+- 2018: Academic Exchange, University of New South Wales, Sydney.
 - 2017: Next Generation Enterprise Modeling in the Digital Transformation Age Summer School, University of Vienna, Vienna.
 
 ## Awards
