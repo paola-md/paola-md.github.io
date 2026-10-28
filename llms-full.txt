@@ -1,6 +1,6 @@
 # Paola Mejia-Domenzain
 
-Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-09-15
+Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-10-28
 
 Co-Founder and CTO of Scholé AI, Lausanne. PhD in Computer Science from EPFL's
 Machine Learning for Education Laboratory (ML4ED), advised by Tanja Käser.
@@ -199,6 +199,11 @@ Learning journals are increasingly used in vocational education to foster self-r
 - 2025: PhD, Computer Science, EPFL, Lausanne. Advisor: Tanja Käser. Thesis: Personalizing Learning and Empowering Educators through Multi-Dimensional Clustering, Teacher Dashboards, and AI-Hybrid Learning Systems.
 - 2020: MSc, Data Science, ITAM, Mexico City. Thesis advisors: Enrique Seira, Mauricio Romero. XXVI Research Award Ex-ITAM.
 - 2019: BSc, Computer Engineering, ITAM, Mexico City. Thesis advisor: Salvador Marmol. Flecha al aire Award 2019.
+- 2019: Summer School on Social Innovation and Financial Inclusion in the Digital Age, Georgetown University, McDonough School of Business, Washington DC. Designed an app for financial literacy; best final presentation award.
+- 2018: Summer School on Applied Data Science, with Raja Sooriamurthi, Carnegie Mellon University, Heinz College, Pittsburgh.
+
+## Lernnavi (Swiss high schools)
+Lernnavi is an intelligent tutoring system that high-school students across Switzerland use to practise German and mathematics. With the Lernnavi team we took learning analytics out of the lab and into real Swiss classrooms. Whole classes took a pre-test and a survey, learned with Lernnavi for about two months, then took a post-test and a second survey, so we could set what students said about their self-regulated learning beside what they actually did in the logs. A follow-up large-scale experiment sent students personalised self-regulated learning messages inside the platform. Summer interns Ghali Chraïbi (2022) and Ali Mrad (2024) analysed the two studies. 79 students, behaviour and self-reports analysed dimension by dimension: the two barely agree one dimension at a time, but an integrated Canonical Correlation Analysis finds a moderate link.
 
 ## Awards
 - 2025: Innosuisse grant. for research development of adaptive learning systems (Scholé)
