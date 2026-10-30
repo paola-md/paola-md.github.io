@@ -1,4 +1,4 @@
-# Paola Mejia-Domenzain
+# Paola Mejia
 
 Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-10-30
 
@@ -8,8 +8,8 @@ Research: self-regulated learning, multimodal learning analytics, interpretable
 student models, and large language models as tutors, feedback-givers and example
 generators.
 
-Name variants that all refer to this person: Paola Mejia-Domenzain (canonical),
-Paola Mejia, Paola Mejía-Domenzain, Paola Mejia Domenzain, P. Mejia-Domenzain.
+Name variants that all refer to this person: Paola Mejia (the name she goes by),
+Paola Mejia-Domenzain (as published), Paola Mejía-Domenzain, Paola Mejia Domenzain, P. Mejia-Domenzain.
 Some indexes store the surname with a U+2010 hyphen; that is the same person.
 
 ## Identifiers

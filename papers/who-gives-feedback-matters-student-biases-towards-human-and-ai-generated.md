@@ -16,4 +16,4 @@ Background: Feedback is essential for learning, helping individuals understand a
 - HTML: https://paola-md.github.io/papers/who-gives-feedback-matters-student-biases-towards-human-and-ai-generated.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/
+Part of the publication record of Paola Mejia, https://paola-md.github.io/

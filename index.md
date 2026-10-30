@@ -1,4 +1,4 @@
-# Paola Mejia-Domenzain
+# Paola Mejia
 
 Co-Founder and CTO of Scholé AI. PhD in Computer Science, EPFL ML4ED (advisor Tanja Käser).
 Machine learning for education: self-regulated learning, multimodal learning analytics,

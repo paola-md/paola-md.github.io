@@ -1,4 +1,4 @@
-# Paola Mejia-Domenzain
+# Paola Mejia
 
 > Co-Founder and CTO of Scholé AI and a PhD computer scientist from EPFL's Machine
 > Learning for Education Laboratory. Builds and studies learning systems that model
@@ -7,7 +7,7 @@
 
 Canonical: https://paola-md.github.io/ · ORCID 0000-0003-1242-3134 · updated 2026-10-30
 
-Also indexed as Paola Mejia, Paola Mejía-Domenzain, Paola Mejia Domenzain and
+Also indexed as Paola Mejia-Domenzain (her published byline), Paola Mejía-Domenzain, Paola Mejia Domenzain and
 P. Mejia-Domenzain, and, through a Unicode normalisation error in some databases,
 with a U+2010 hyphen. All refer to the same person.
 

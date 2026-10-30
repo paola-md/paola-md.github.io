@@ -12,4 +12,4 @@ This workshop explores how generative AI can strengthen scenario-based learning 
 - HTML: https://paola-md.github.io/papers/scenario-based-learning-through-and-with-ai-evidence-informed-simulation.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/
+Part of the publication record of Paola Mejia, https://paola-md.github.io/

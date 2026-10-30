@@ -12,4 +12,4 @@ Large language model (LLM) tools can provide students with rapid solutions but m
 - HTML: https://paola-md.github.io/papers/turning-500-students-into-teachers-a-semester-long-study-of-an-ai-teacha.html
 - Cite: https://paola-md.github.io/publications.bib
 
-Part of the publication record of Paola Mejia-Domenzain, https://paola-md.github.io/
+Part of the publication record of Paola Mejia, https://paola-md.github.io/
