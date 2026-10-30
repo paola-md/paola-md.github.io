@@ -99,7 +99,7 @@
   "2020: ANFEI Academic Excellence Award: National Association of Faculties and Schools of Engineering",
   "2019: Flecha al aire Award: best undergraduate thesis related to education"
  ],
- "dateModified": "2026-10-28",
+ "dateModified": "2026-10-30",
  "sameAs": [
   "https://orcid.org/0000-0003-1242-3134",
   "https://scholar.google.com/citations?user=qG-UQgwAAAAJ",
@@ -119,7 +119,7 @@
  "@id": "https://paola-md.github.io/#profile",
  "url": "https://paola-md.github.io/",
  "name": "Paola Mejia-Domenzain · Machine Learning for Education",
- "dateModified": "2026-10-28",
+ "dateModified": "2026-10-30",
  "mainEntity": {
   "@id": "https://paola-md.github.io/#person"
  },
@@ -535,11 +535,7 @@ I&rsquo;ll send you a week of <a href="https://schole.ai">Schol&eacute;</a> Prem
 <form class="fw-card" id="fwform" novalidate>
 <label for="fw-email">Your email</label>
 <input id="fw-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
-<fieldset>
-<legend>Pick anything that sparks joy</legend>
-<div class="chips"><button type="button" class="chip" aria-pressed="false" data-topic="AI at work"><span aria-hidden="true">🤖</span> AI at work</button><button type="button" class="chip" aria-pressed="false" data-topic="Cybersecurity"><span aria-hidden="true">🔐</span> Cybersecurity</button><button type="button" class="chip" aria-pressed="false" data-topic="Paragliding theory"><span aria-hidden="true">🪂</span> Paragliding theory</button><button type="button" class="chip" aria-pressed="false" data-topic="Scuba diving theory"><span aria-hidden="true">🤿</span> Scuba diving theory</button><button type="button" class="chip" aria-pressed="false" data-topic="Surfing"><span aria-hidden="true">🏄</span> Surfing</button><button type="button" class="chip" aria-pressed="false" data-topic="Data analysis"><span aria-hidden="true">📊</span> Data analysis</button><button type="button" class="chip" aria-pressed="false" data-topic="Aviation"><span aria-hidden="true">✈️</span> Aviation</button><button type="button" class="chip" aria-pressed="false" data-topic="AI for teachers"><span aria-hidden="true">🧑‍🏫</span> AI for teachers</button><button type="button" class="chip" aria-pressed="false" data-topic="AI in construction"><span aria-hidden="true">🏗️</span> AI in construction</button><button type="button" class="chip" aria-pressed="false" data-topic="Swiss Maturité revision"><span aria-hidden="true">🎓</span> Swiss Maturité revision</button></div>
-</fieldset>
-<label for="fw-what">Or say it in your own words</label>
+<label for="fw-what">What would you like to learn?</label>
 <div class="fw-row">
 <textarea id="fw-what" name="what" rows="2" placeholder="I want to learn..."></textarea>
 <button type="button" class="fw-dice" id="fwdice" title="Surprise me" aria-label="Surprise me with an idea">
@@ -558,22 +554,17 @@ I&rsquo;ll send you a week of <a href="https://schole.ai">Schol&eacute;</a> Prem
 (function(){
   var f=document.getElementById('fwform'); if(!f) return;
   var ideas=["how to read a weather chart before a flight", "why my spreadsheet formulas keep breaking", "how to spot a phishing email in five seconds", "enough statistics to argue with a chart", "how to write prompts that actually work", "what a dive computer is really telling me"], k=Math.floor(Math.random()*ideas.length);
-  var chips=f.querySelectorAll('.chip');
-  chips.forEach(function(c){ c.addEventListener('click',function(){
-    c.setAttribute('aria-pressed', c.getAttribute('aria-pressed')==='true'?'false':'true'); }); });
   document.getElementById('fwdice').addEventListener('click',function(){
     var t=document.getElementById('fw-what'); k=(k+1)%ideas.length; t.value=ideas[k]; t.focus(); });
   f.addEventListener('submit',function(ev){
     ev.preventDefault();
     var em=document.getElementById('fw-email'), err=document.getElementById('fwerr');
-    var picked=[].filter.call(chips,function(c){return c.getAttribute('aria-pressed')==='true';})
-                 .map(function(c){return c.getAttribute('data-topic');});
     var what=document.getElementById('fw-what').value.trim();
     if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em.value.trim())){ err.textContent='Please add an email so I know where to send your week.'; em.focus(); return; }
-    if(!picked.length && !what){ err.textContent='Pick a topic or write one, anything goes!'; return; }
+    if(!what){ err.textContent='Tell me what you want to learn, anything goes!'; return; }
     err.textContent='';
     var body='Hi Paola,\n\nI would love a free week of Schol\u00e9.\n\nMy email: '+em.value.trim()+
-      (picked.length?'\nTopics: '+picked.join(', '):'')+(what?'\nIn my words: '+what:'')+'\n\nThanks!';
+      '\nI want to learn: '+what+'\n\nThanks!';
     window.location.href='mailto:paola@schole.ai?subject='+encodeURIComponent('My free week at Schol\u00e9')+'&body='+encodeURIComponent(body);
     document.getElementById('fwdone').hidden=false;
   });
@@ -815,7 +806,7 @@ I&rsquo;ll send you a week of <a href="https://schole.ai">Schol&eacute;</a> Prem
 <a href="/llms-full.txt">llms-full.txt</a> &middot; <a href="/sitemap.xml">sitemap</a></p>
 <p>Abstracts are reproduced under each paper&rsquo;s own licence; follow the DOI for the version of record.
 Site metadata may be reused freely.</p>
-<p>Last updated 2026-10-28. Plain static HTML, open to crawlers.</p>
+<p>Last updated 2026-10-30. Plain static HTML, open to crawlers.</p>
 </div></footer>
 <script>
 (function(){
