@@ -189,7 +189,7 @@ Page: https://paola-md.github.io/papers/evolutionary-clustering-of-apprentices-s
 Learning journals are increasingly used in vocational education to foster self-regulated learning and reflective learning practices. However, for many apprentices, documenting working experiences is a difficult task. In this article, we profile apprentices' learning behavior in an online learning journal. Based on a pedagogical framework, we propose a novel multistep clustering pipeline that integrates different learning dimensions into a combined profile. Specifically, the profiles are described in terms of effort, consistency, regularity, help-seeking behavior, and quality of the written entries. Our results on two populations of chef apprentices (183 apprentices) interacting with an online learning journal (over 121K entries) show that our pipeline captures changes in learning patterns over time and yields interpretable profiles that can be related to academic performance. The obtained profiles can be used as a basis for personalized interventions, with the ultimate goal of improving the apprentices' learning experience.
 
 ## Experience
-- 2025–present: Co-Founder & CTO, Scholé AI (Lausanne). AI personalised learning platform for workforce upskilling. Lead product and engineering for an agentic system that adapts to a learner's role, workflow and organisational context. Raised a $3M seed round led by ACE Ventures; built and scaled the engineering team; collaborations with Swisscom and Decathlon; Kickstart Innovation 2025.
+- 2025–present: Co-Founder & CTO, Scholé AI (Lausanne). AI personalised learning platform for workforce upskilling. Lead product and engineering for an agentic system that adapts to a learner's role, workflow and organisational context. Raised a $3M seed round led by ACE Ventures; built and scaled the engineering team; collaborations with Swisscom and Decathlon; Kickstart Innovation 2025. Ran a pilot with IATSE Local 891 in which members' self-rated confidence with AI tools rose from 3.5 to 5.6 out of 10 across 1,200+ activities; launched OSTraining's own AI learning platform on Scholé (September 2026); #1 Product of the Day on Product Hunt, twice.
 - 2024: Visiting Researcher, Centre for Learning Analytics at Monash (CoLAM) (Melbourne). Hosted as a collaborator of Roberto Martinez-Maldonado. Ran a large-scale study on how data storytelling affects task performance across levels of cognitive complexity, and studied multimodal dashboards for team-teaching reflection.
 - 2021–2024: Research Lead, Lernnavi studies, Lernnavi · EPFL ML4ED (Switzerland). Lernnavi is a tutoring system that Swiss high-school students use to practise German and maths. I led our classroom studies: classes took a pre-test and survey, learned with Lernnavi for about two months, then took a post-test and second survey, so we could compare what students said about their self-regulated learning with what they did. A follow-up experiment tested personalised self-regulated learning messages in the platform. Paper: Navigating Self-regulated Learning Dimensions (AIED 2024).
 - 2020–2025: Doctoral Researcher, EPFL ML4ED (Lausanne). Machine Learning for Education Laboratory, advised by Tanja Käser. EDIC Fellowship; EPFL IC Distinguished Service Award; Vice-President of the IC PhD Association (EPIC).
@@ -207,6 +207,8 @@ Learning journals are increasingly used in vocational education to foster self-r
 - 2017: Next Generation Enterprise Modeling in the Digital Transformation Age Summer School, University of Vienna, Vienna.
 
 ## Awards
+- 2026: Tech Tour AI & Trust Systems. selected startup, September 2026
+- 2026: #1 Product of the Day, Product Hunt. two launches of Scholé
 - 2025: Innosuisse grant. for research development of adaptive learning systems (Scholé)
 - 2024: Tools Competition winner. Building an Adaptive and Competitive Workforce (Scholé)
 - 2024: Best Paper Award. ECTEL: AI or Human? Evaluating Student Feedback Perceptions
@@ -259,6 +261,8 @@ Learning journals are increasingly used in vocational education to foster self-r
 - 2021: Swiss VET Conference: Chef apprentices' learning documentation (Lugano)
 
 ## Media
+- Scholé AI Adoption Diaries: How IATSE Local 891 gave its members an accessible introduction to AI, https://schole.ai/ai-adoption-diaries/iatse-local-891 (Case study of the union pilot: 1,200+ activities across 40+ AI lessons, October 2026.)
+- PRWeb: OS Training launches its own AI-powered learning platform, built on Scholé AI technology, https://www.prweb.com/releases/os-training-launches-its-own-ai-powered-learning-platform-built-on-schole-ai-technology-302866484.html (The OSTraining partnership launch, September 2026.)
 - EPFL: “We should always have a human approach to AI”, https://actu.epfl.ch/news/we-should-always-have-a-human-approach-to-ai/ (Profile of the first two graduating PhDs of EPFL’s ML4ED lab.)
 - Startupticker: Scholé AI raises $3M to transform workforce learning, https://www.startupticker.ch/en/news/schole-ai-raises-3m-to-transform-workforce-learning (Swiss startup press on the seed round led by ACE Ventures, January 2026.)
 - GGBa: Scholé AI raises USD 3 million to scale its AI-native workforce learning platform, https://ggba.swiss/en/schole-ai-raises-usd-3-million-to-scale-its-ai-native-workforce-learning-platform/ (Greater Geneva Bern area investment agency.)
