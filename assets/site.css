@@ -793,6 +793,41 @@ nav.bar .inner.more-right{-webkit-mask-image:linear-gradient(90deg,#000 calc(100
 .pub-links a{min-height:36px;display:inline-flex;align-items:center}
 .abs-more{display:inline-block;padding:6px 0}
 
+/* ---------- dark mode polish ---------- */
+@media (prefers-color-scheme: dark){
+ :root:not([data-theme="light"]){
+   /* a slightly lifted, warmer ground so panels have something to sit on */
+   --bg-top:#151222; --bg-mid:#141120; --bg-bot:#0e0c16;
+   --bg-glow-a:rgba(126,94,190,.32); --bg-glow-b:rgba(70,116,176,.26);
+   --panel:rgba(255,255,255,.05); --panel-strong:rgba(255,255,255,.075);
+   --panel-solid:#1b1729;
+   --rule:rgba(255,255,255,.09);
+   --plate:#ecebf3;
+ }
+ /* light figures and boards: dim them rather than invert, so they don't glare */
+ :root:not([data-theme="light"]) .board{ filter:brightness(.96) }
+ :root:not([data-theme="light"]) .pub .thumb img,
+ :root:not([data-theme="light"]) .syscard details img,
+ :root:not([data-theme="light"]) figure.paperfig img{ filter:brightness(.92) saturate(.96) }
+ /* raised surfaces catch a little light on their top edge */
+ :root:not([data-theme="light"]) .media li a,
+ :root:not([data-theme="light"]) .media .mgroup,
+ :root:not([data-theme="light"]) .slide,
+ :root:not([data-theme="light"]) .fw-card{ box-shadow:inset 0 1px 0 rgba(255,255,255,.06), 0 18px 44px -30px rgba(0,0,0,.8) }
+ :root:not([data-theme="light"]) .media li a:hover{ box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 14px 32px -18px rgba(0,0,0,.9) }
+ /* section breaks: a brand-tinted line that fades at both ends */
+ :root:not([data-theme="light"]) hr.rule{
+   background:linear-gradient(90deg,transparent,rgba(183,154,230,.30) 25%,rgba(143,180,234,.30) 75%,transparent) }
+ /* the portrait sits in a soft halo instead of on flat black */
+ :root:not([data-theme="light"]) .hero .photo{ box-shadow:0 0 0 1px rgba(255,255,255,.12), 0 24px 70px -22px rgba(126,94,190,.55) }
+ /* footer as its own band */
+ :root:not([data-theme="light"]) footer{ background:rgba(255,255,255,.035) }
+ /* form fields read as wells, not holes */
+ :root:not([data-theme="light"]) .fw-card input,
+ :root:not([data-theme="light"]) .fw-card textarea{ background:rgba(0,0,0,.28); border-color:rgba(255,255,255,.12) }
+ :root:not([data-theme="light"]) .btn-sec{ background:rgba(255,255,255,.06) }
+}
+
 /* === generated: explicit theme override — do not edit between the fences === */
 :root[data-theme="dark"]{
    /* inverted neutral ramp */
@@ -856,4 +891,35 @@ nav.bar .inner.more-right{-webkit-mask-image:linear-gradient(90deg,#000 calc(100
 :root[data-theme="dark"] .themebtn .ico-sun{display:none}
   :root[data-theme="dark"] .themebtn .ico-moon{display:inline}
 :root[data-theme="dark"]{ --fw-err:#ff9d94 }
+:root[data-theme="dark"]{
+   /* a slightly lifted, warmer ground so panels have something to sit on */
+   --bg-top:#151222; --bg-mid:#141120; --bg-bot:#0e0c16;
+   --bg-glow-a:rgba(126,94,190,.32); --bg-glow-b:rgba(70,116,176,.26);
+   --panel:rgba(255,255,255,.05); --panel-strong:rgba(255,255,255,.075);
+   --panel-solid:#1b1729;
+   --rule:rgba(255,255,255,.09);
+   --plate:#ecebf3;
+ }
+ /* light figures and boards: dim them rather than invert, so they don't glare */
+ :root[data-theme="dark"] .board{ filter:brightness(.96) }
+ :root[data-theme="dark"] .pub .thumb img,
+ :root[data-theme="dark"] .syscard details img,
+ :root[data-theme="dark"] figure.paperfig img{ filter:brightness(.92) saturate(.96) }
+ /* raised surfaces catch a little light on their top edge */
+ :root[data-theme="dark"] .media li a,
+ :root[data-theme="dark"] .media .mgroup,
+ :root[data-theme="dark"] .slide,
+ :root[data-theme="dark"] .fw-card{ box-shadow:inset 0 1px 0 rgba(255,255,255,.06), 0 18px 44px -30px rgba(0,0,0,.8) }
+ :root[data-theme="dark"] .media li a:hover{ box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 14px 32px -18px rgba(0,0,0,.9) }
+ /* section breaks: a brand-tinted line that fades at both ends */
+ :root[data-theme="dark"] hr.rule{
+   background:linear-gradient(90deg,transparent,rgba(183,154,230,.30) 25%,rgba(143,180,234,.30) 75%,transparent) }
+ /* the portrait sits in a soft halo instead of on flat black */
+ :root[data-theme="dark"] .hero .photo{ box-shadow:0 0 0 1px rgba(255,255,255,.12), 0 24px 70px -22px rgba(126,94,190,.55) }
+ /* footer as its own band */
+ :root[data-theme="dark"] footer{ background:rgba(255,255,255,.035) }
+ /* form fields read as wells, not holes */
+ :root[data-theme="dark"] .fw-card input,
+ :root[data-theme="dark"] .fw-card textarea{ background:rgba(0,0,0,.28); border-color:rgba(255,255,255,.12) }
+ :root[data-theme="dark"] .btn-sec{ background:rgba(255,255,255,.06) }
 /* === end generated === */
