@@ -754,6 +754,45 @@ details.more{margin-top:14px}
 .more[open]>summary::after{transform:rotate(90deg)}
 .more>summary:hover{color:var(--ink)}
 
+
+
+/* ---------- hero actions ---------- */
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 18px}
+.btn-pri,.btn-sec{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 20px;border-radius:11px;
+  font-size:15px;font-weight:600;text-decoration:none;transition:transform .15s var(--ease),box-shadow .15s var(--ease),border-color .15s var(--ease)}
+.btn-pri{color:#fff;background:linear-gradient(90deg,#6b4fb0,#4f56b4)}
+.btn-pri:hover{transform:translateY(-1px);box-shadow:0 10px 22px -14px var(--shadow)}
+.btn-sec{color:var(--ink);border:1px solid var(--ring);background:var(--panel-strong)}
+.btn-sec:hover{border-color:var(--solid);color:var(--link)}
+/* profile links: a quiet row under the actions */
+.ids{gap:4px 14px}
+.ids a{background:none;border:0;padding:6px 0;color:var(--ink-faint);font-size:13px}
+.ids a:hover{transform:none;color:var(--link)}
+
+/* ---------- CTO highlights ---------- */
+.pts{margin:8px 0 0;padding-left:18px;color:var(--ink-soft);font-size:14.4px;line-height:1.5}
+.tl .pts{list-style:disc;max-width:68ch}
+.tl .pts li{display:list-item;padding:0;border:0;margin:3px 0}
+.pts b{color:var(--ink);font-weight:600}
+
+/* ---------- grouped press card ---------- */
+.media .mgroup{display:block;height:100%;background:var(--panel);border:1px solid var(--rule);border-radius:12px;padding:16px 18px}
+.media li .mgroup a{display:inline;height:auto;padding:0;border:0;border-radius:0;background:none;
+  color:var(--link);text-decoration:underline;text-underline-offset:2px;transition:none}
+.media li .mgroup a:hover{transform:none;box-shadow:none;color:var(--ink)}
+
+/* ---------- carousel: fade the peeking card so it reads as intentional ---------- */
+.carousel{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 56px),transparent);
+  mask-image:linear-gradient(90deg,#000 calc(100% - 56px),transparent)}
+
+/* ---------- phone nav: fade the right edge while more links are hidden ---------- */
+nav.bar .inner.more-right{-webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent);
+  mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent)}
+
+/* taller tap targets for small controls */
+.pub-links a{min-height:36px;display:inline-flex;align-items:center}
+.abs-more{display:inline-block;padding:6px 0}
+
 /* === generated: explicit theme override — do not edit between the fences === */
 :root[data-theme="dark"]{
    /* inverted neutral ramp */

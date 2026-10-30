@@ -183,10 +183,13 @@
 <a href="/llms-full.txt">llms-full.txt</a> &middot; <a href="/sitemap.xml">sitemap</a></p>
 <p>Abstracts are reproduced under each paper&rsquo;s own licence; follow the DOI for the version of record.
 Site metadata may be reused freely.</p>
-<p>Last updated 2026-10-28. Plain static HTML, open to crawlers.</p>
+<p>Last updated 2026-10-30. Plain static HTML, open to crawlers.</p>
 </div></footer>
 <script>
 (function(){
+  var nb=document.querySelector('nav.bar .inner');
+  if(nb){var fe=function(){nb.classList.toggle('more-right', nb.scrollLeft+nb.clientWidth < nb.scrollWidth-4);};
+    nb.addEventListener('scroll',fe,{passive:true}); window.addEventListener('resize',fe); fe();}
   var b=document.getElementById('themebtn'); if(!b) return;
   var mq=window.matchMedia('(prefers-color-scheme: dark)');
   function current(){
