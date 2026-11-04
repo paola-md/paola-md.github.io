@@ -1,6 +1,6 @@
 # Paola Mejia
 
-Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-10-30
+Canonical page: https://paola-md.github.io/   |   ORCID: 0000-0003-1242-3134   |   Updated: 2026-11-03
 
 Co-Founder and CTO of Scholé AI, Lausanne. PhD in Computer Science from EPFL's
 Machine Learning for Education Laboratory (ML4ED), advised by Tanja Käser.
@@ -190,6 +190,7 @@ Learning journals are increasingly used in vocational education to foster self-r
 
 ## Experience
 - 2025–present: Co-Founder & CTO, Scholé AI (Lausanne). AI personalised learning platform for workforce upskilling. Lead product and engineering for an agentic system that adapts to a learner's role, workflow and organisational context. Raised a $3M seed round led by ACE Ventures; built and scaled the engineering team.
+- 2026–present: Guest Lecturer, Harvard Data Science Review Courses (Online). Teaches in the Harvard Data Science Review intensives, run with NGL, leading live sessions on building AI agents for professionals.
 - 2024: Visiting Researcher, Centre for Learning Analytics at Monash (CoLAM) (Melbourne). Hosted as a collaborator of Roberto Martinez-Maldonado. Ran a large-scale study on how data storytelling affects task performance across levels of cognitive complexity, and studied multimodal dashboards for team-teaching reflection.
 - 2021–2024: Research Lead, Lernnavi studies, Lernnavi · EPFL ML4ED (Switzerland). Lernnavi is a tutoring system that Swiss high-school students use to practise German and maths. I led our classroom studies: classes took a pre-test and survey, learned with Lernnavi for about two months, then took a post-test and second survey, so we could compare what students said about their self-regulated learning with what they did. A follow-up experiment tested personalised self-regulated learning messages in the platform. Paper: Navigating Self-regulated Learning Dimensions (AIED 2024).
 - 2020–2025: Doctoral Researcher, EPFL ML4ED (Lausanne). Machine Learning for Education Laboratory, advised by Tanja Käser. EDIC Fellowship; EPFL IC Distinguished Service Award; Vice-President of the IC PhD Association (EPIC).
@@ -220,6 +221,7 @@ Learning journals are increasingly used in vocational education to foster self-r
 - 2019: Flecha al aire Award. best undergraduate thesis related to education
 
 ## Teaching
+- Build Your Agent intensive, Harvard Data Science Review Courses, with NGL, Autumn 2026. Guest lecturer. Leads live sessions where participants build a personal AI agent with Claude, ChatGPT or Copilot. Teaching two sessions of the Spanish-language intensive, Estratega y Constructor de IA, in December 2026.
 - CS-421 Machine Learning for Behavioral Data, EPFL, Spring 2021–2025. Helped Tanja Käser build this master's course from scratch; designed tutorials, labs, homework and project assignments on real data, and supervised semester-long student projects.
 - CS-401 Applied Data Analysis, EPFL, Autumn 2021. Guided students through a semester-long analysis project ending in a data story.
 - CS-101 Advanced Information, Computation, Communication I, EPFL, Autumn 2022, 2023. Led a team of ten teaching assistants running weekly tutorials and quizzes.
@@ -247,8 +249,12 @@ Learning journals are increasingly used in vocational education to foster self-r
 - 2021: Nataša Krčo, "Exploring Self-Regulated Learning (SRL) Behavior in Language and Math Learning" (Semester Project). Now: PhD student at Imperial College London
 - 2021: Gonxhe Idrizi, "NLP Analysis of Learning and Performance Documentation Entries of Chef Apprentices" (Semester Project). Now: IT data scientist at Procter & Gamble, Geneva
 
-## Invited talks
+## Panels and talks
+- 2026: Trust Valley Days panel: Trusting What We Learn, with leaders of UNIL, UNIGE and HEIG-VD (Lausanne)
+- 2026: Tech Tour AI & Trust Systems: investor pitch, one of 40 companies selected from 80+ (Prilly)
+- 2026: Investor Day panel with Vinitra Swamy, moderated by Alessandra Agnello (ACE Ventures, Geneva)
 - 2026: EPFL Engineering Industry Day (Lausanne)
+- 2025: AI Breakfast panel: AI x Education, moderated by Adrian Locher (Merantix AI Campus, Berlin)
 - 2025: AIED: Enhancing Procedural Writing through Personalized Example Retrieval (Palermo)
 - 2025: CHI: Data storytelling and task complexity (Yokohama)
 - 2025: LAK: Multimodal analytics dashboards for team teaching (Dublin)
